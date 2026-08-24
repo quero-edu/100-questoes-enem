@@ -7,7 +7,17 @@ const areas = [
   ['76—100', 'Matemática'],
 ]
 
-export function Home({ onStart, answeredCount }: { onStart: () => void; answeredCount: number }) {
+export function Home({
+  onContinue,
+  onBrowse,
+  answeredCount,
+}: {
+  onContinue: () => void
+  onBrowse: () => void
+  answeredCount: number
+}) {
+  const hasProgress = answeredCount > 0
+
   return (
     <main id="main" className="home">
       <div className="home__shell">
@@ -21,10 +31,20 @@ export function Home({ onStart, answeredCount }: { onStart: () => void; answered
               <span>Comentadas</span>
             </h1>
             <p>Questões no estilo clássico do ENEM, organizadas por área. Cada questão traz alternativas, gabarito e explicação simples e direta.</p>
-            <button className="button button--primary button--large" onClick={onStart}>
-              {answeredCount > 0 ? 'Continuar estudando' : 'Começar'} <span aria-hidden="true">→</span>
-            </button>
-            {answeredCount > 0 && <p className="hero__resume">Seu progresso está salvo nesta sessão: {answeredCount}/100 respondidas.</p>}
+            {hasProgress && (
+              <div className="hero__saved-progress">
+                <strong>Você já começou este material.</strong>
+                <span>{answeredCount} de 100 questões respondidas</span>
+              </div>
+            )}
+            <div className="hero__actions">
+              <button className="button button--primary button--large" onClick={onContinue}>
+                {hasProgress ? 'Continuar de onde parei' : 'Começar'} <span aria-hidden="true">→</span>
+              </button>
+              {hasProgress && (
+                <button className="button button--secondary button--large" onClick={onBrowse}>Ver questões</button>
+              )}
+            </div>
             <div className="hero__facts" aria-label="Resumo da experiência">
               <span><strong>100</strong> questões</span>
               <span><strong>4</strong> áreas</span>

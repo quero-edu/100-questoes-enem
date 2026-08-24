@@ -10,10 +10,10 @@ type Props = {
   onNext: () => void
   onPrevious: () => void
   canGoPrevious: boolean
-  allAnswered: boolean
+  canGoNext: boolean
 }
 
-export function QuestionView({ question, selected, submitted, onSelect, onSubmit, onNext, onPrevious, canGoPrevious, allAnswered }: Props) {
+export function QuestionView({ question, selected, submitted, onSelect, onSubmit, onNext, onPrevious, canGoPrevious, canGoNext }: Props) {
   const isCorrect = selected === question.answer
 
   return (
@@ -85,15 +85,14 @@ export function QuestionView({ question, selected, submitted, onSelect, onSubmit
         <button className="button button--secondary question__previous" disabled={!canGoPrevious} onClick={onPrevious}>
           <span aria-hidden="true">←</span> Questão anterior
         </button>
-        {!submitted ? (
-          <button className="button button--primary" disabled={!selected} onClick={onSubmit}>
-            Responder
+        <div className="question__actions-next">
+          {!submitted && (
+            <button className="button button--primary" disabled={!selected} onClick={onSubmit}>Responder</button>
+          )}
+          <button className="button button--secondary" disabled={!canGoNext} onClick={onNext}>
+            Próxima questão <span aria-hidden="true">→</span>
           </button>
-        ) : (
-          <button className="button button--primary" onClick={onNext}>
-            {question.number === 100 && allAnswered ? 'Ver meu resultado' : 'Próxima questão'} <span aria-hidden="true">→</span>
-          </button>
-        )}
+        </div>
       </div>
     </article>
   )

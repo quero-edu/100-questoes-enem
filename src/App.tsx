@@ -5,18 +5,40 @@ import { BrandHeader } from './components/BrandHeader'
 import { Home } from './components/Home'
 import { ProgressHeader } from './components/ProgressHeader'
 import { QuestionView } from './components/QuestionView'
-import { AreaTransition } from './components/AreaTransition'
 import { FinalResult } from './components/FinalResult'
 import { ReviewMode } from './components/ReviewMode'
 
 const questions = rawQuestions as Question[]
+const STORAGE_KEY = 'preparadao-enem-progress-v1'
+
+type SavedProgress = {
+  answers: Record<number, AnswerRecord>
+  currentIndex: number
+}
+
+function readProgress(): SavedProgress {
+  if (typeof window === 'undefined') return { answers: {}, currentIndex: 0 }
+
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? '') as Partial<SavedProgress>
+    const currentIndex = Number.isInteger(saved.currentIndex) && Number(saved.currentIndex) >= 0 && Number(saved.currentIndex) < questions.length
+      ? Number(saved.currentIndex)
+      : 0
+    const answers = saved.answers && typeof saved.answers === 'object' ? saved.answers : {}
+    return { answers, currentIndex }
+  } catch {
+    return { answers: {}, currentIndex: 0 }
+  }
+}
 
 function App() {
+  const [initialProgress] = useState(readProgress)
   const [screen, setScreen] = useState<Screen>('home')
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [selected, setSelected] = useState<string | null>(null)
-  const [submitted, setSubmitted] = useState(false)
-  const [answers, setAnswers] = useState<Record<number, AnswerRecord>>({})
+  const [currentIndex, setCurrentIndex] = useState(initialProgress.currentIndex)
+  const initialAnswer = initialProgress.answers[questions[initialProgress.currentIndex].number]
+  const [selected, setSelected] = useState<string | null>(initialAnswer?.selected ?? null)
+  const [submitted, setSubmitted] = useState(Boolean(initialAnswer))
+  const [answers, setAnswers] = useState<Record<number, AnswerRecord>>(initialProgress.answers)
   const current = questions[currentIndex]
 
   useEffect(() => {
@@ -27,8 +49,10 @@ function App() {
     return [1, 2, 3, 4].map((areaId) => {
       const areaQuestions = questions.filter((question) => question.areaId === areaId)
       return {
+        id: areaId,
         name: areaQuestions[0].areaShort,
         score: areaQuestions.filter((question) => answers[question.number]?.correct).length,
+        answered: areaQuestions.filter((question) => answers[question.number]).length,
         total: areaQuestions.length,
       }
     })
@@ -37,27 +61,22 @@ function App() {
   const totalScore = Object.values(answers).filter((answer) => answer.correct).length
   const answeredCount = Object.keys(answers).length
   const wrongQuestions = questions.filter((question) => answers[question.number] && !answers[question.number].correct)
-  const areaProgress = useMemo(() => {
-    return [1, 2, 3, 4].map((areaId) => {
-      const areaQuestions = questions.filter((question) => question.areaId === areaId)
-      return {
-        id: areaId,
-        name: areaQuestions[0].areaShort,
-        answered: areaQuestions.filter((question) => answers[question.number]).length,
-      }
-    })
-  }, [answers])
+  const answeredNumbers = useMemo(() => new Set(Object.keys(answers).map(Number)), [answers])
 
-  function start() {
-    setScreen('quiz')
-  }
-
-  function goHome() {
-    setScreen('home')
-  }
+  useEffect(() => {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      version: 1,
+      answers,
+      currentIndex,
+      lastQuestion: currentIndex + 1,
+      answeredCount,
+      areaProgress: areaScores.map(({ id, name, answered }) => ({ id, name, answered })),
+    }))
+  }, [answers, currentIndex, answeredCount, areaScores])
 
   function goToQuestion(index: number) {
     const target = questions[index]
+    if (!target) return
     const savedAnswer = answers[target.number]
     setCurrentIndex(index)
     setSelected(savedAnswer?.selected ?? null)
@@ -65,10 +84,16 @@ function App() {
     setScreen('quiz')
   }
 
-  function goToArea(areaId: number) {
-    const firstInArea = questions.findIndex((question) => question.areaId === areaId)
-    const firstUnanswered = questions.findIndex((question) => question.areaId === areaId && !answers[question.number])
-    goToQuestion(firstUnanswered >= 0 ? firstUnanswered : firstInArea)
+  function continueFromHome() {
+    goToQuestion(currentIndex)
+  }
+
+  function browseQuestions() {
+    goToQuestion(0)
+  }
+
+  function goHome() {
+    setScreen('home')
   }
 
   function submitAnswer() {
@@ -81,32 +106,20 @@ function App() {
   }
 
   function next() {
-    if (!submitted) return
-    if (current.number === 100) {
-      if (answeredCount === questions.length) {
-        setScreen('result')
-      } else {
-        const firstUnanswered = questions.findIndex((question) => !answers[question.number])
-        goToQuestion(firstUnanswered)
-      }
-      return
-    }
-    if ([25, 50, 75].includes(current.number)) {
-      const nextAreaHasProgress = questions.some(
-        (question) => question.areaId === current.areaId + 1 && answers[question.number],
-      )
-      if (nextAreaHasProgress) goToQuestion(currentIndex + 1)
-      else setScreen('transition')
-      return
-    }
-    goToQuestion(currentIndex + 1)
+    if (currentIndex < questions.length - 1) goToQuestion(currentIndex + 1)
   }
 
-  function continueArea() {
-    goToQuestion(currentIndex + 1)
+  function showResult() {
+    setScreen('result')
+  }
+
+  function continueAnswering() {
+    const firstUnanswered = questions.findIndex((question) => !answers[question.number])
+    goToQuestion(firstUnanswered >= 0 ? firstUnanswered : currentIndex)
   }
 
   function restart() {
+    window.localStorage.removeItem(STORAGE_KEY)
     setAnswers({})
     setCurrentIndex(0)
     setSelected(null)
@@ -114,20 +127,13 @@ function App() {
     setScreen('quiz')
   }
 
-  if (screen === 'home') return <Home onStart={start} answeredCount={answeredCount} />
-
-  if (screen === 'transition') {
-    const areaResult = areaScores[current.areaId - 1]
+  if (screen === 'home') {
     return (
-      <div className="app-shell app-shell--dark">
-        <BrandHeader compact onHome={goHome} />
-        <AreaTransition
-          area={current.areaShort}
-          score={areaResult.score}
-          nextArea={questions[currentIndex + 1].areaShort}
-          onContinue={continueArea}
-        />
-      </div>
+      <Home
+        onContinue={continueFromHome}
+        onBrowse={browseQuestions}
+        answeredCount={answeredCount}
+      />
     )
   }
 
@@ -135,7 +141,15 @@ function App() {
     return (
       <div className="app-shell app-shell--result">
         <BrandHeader compact onHome={goHome} />
-        <FinalResult totalScore={totalScore} areas={areaScores} wrongCount={wrongQuestions.length} onReview={() => setScreen('review')} onRestart={restart} />
+        <FinalResult
+          totalScore={totalScore}
+          answeredCount={answeredCount}
+          areas={areaScores}
+          wrongCount={wrongQuestions.length}
+          onReview={() => setScreen('review')}
+          onRestart={restart}
+          onContinue={continueAnswering}
+        />
       </div>
     )
   }
@@ -154,12 +168,12 @@ function App() {
       <BrandHeader compact onHome={goHome} />
       <main id="main" className="quiz-layout">
         <ProgressHeader
-          area={current.areaShort}
+          questions={questions}
           current={current.number}
-          total={questions.length}
           answered={answeredCount}
-          areaProgress={areaProgress}
-          onAreaSelect={goToArea}
+          answeredNumbers={answeredNumbers}
+          onQuestionSelect={(number) => goToQuestion(number - 1)}
+          onFinish={showResult}
         />
         <QuestionView
           question={current}
@@ -170,7 +184,7 @@ function App() {
           onNext={next}
           onPrevious={() => goToQuestion(currentIndex - 1)}
           canGoPrevious={currentIndex > 0}
-          allAnswered={answeredCount === questions.length}
+          canGoNext={currentIndex < questions.length - 1}
         />
       </main>
     </div>
