@@ -1,7 +1,7 @@
 type AreaScore = { id: number; name: string; score: number; answered: number; total: number }
 
 const links = {
-  revista: 'https://querobolsa.com.br/revista/assunto/enem',
+  revista: 'https://querobolsa.com.br/revista/assunto/enem?utm_source=querobolsa&utm_medium=whatsapp&utm_campaign=comunidade-preparadao-26_guia-questoes-comentadas-enem',
   queroBolsa: 'https://querobolsa.com.br/?utm_source=querobolsa&utm_medium=whatsapp&utm_campaign=comunidade-preparadao-26_guia-questoes-comentadas-enem',
   instagram: 'https://www.instagram.com/preparadao.enem/',
   youtube: 'https://www.youtube.com/@querobolsa',
