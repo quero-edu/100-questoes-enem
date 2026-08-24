@@ -8,33 +8,6 @@ const links = {
   tiktok: 'https://www.tiktok.com/@QUERO.BOLSA',
 }
 
-function SocialIcon({ name }: { name: 'instagram' | 'youtube' | 'tiktok' }) {
-  if (name === 'instagram') {
-    return (
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <rect x="3" y="3" width="18" height="18" rx="5" />
-        <circle cx="12" cy="12" r="4" />
-        <circle cx="17.5" cy="6.5" r="1" className="social-icon__dot" />
-      </svg>
-    )
-  }
-
-  if (name === 'youtube') {
-    return (
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M22 12c0 2.4-.3 4.4-.7 5.4-.3.8-.9 1.4-1.7 1.7-1.5.4-4.3.7-7.6.7s-6.1-.3-7.6-.7c-.8-.3-1.4-.9-1.7-1.7C2.3 16.4 2 14.4 2 12s.3-4.4.7-5.4c.3-.8.9-1.4 1.7-1.7C5.9 4.5 8.7 4.2 12 4.2s6.1.3 7.6.7c.8.3 1.4.9 1.7 1.7.4 1 .7 3 .7 5.4Z" />
-        <path d="m10 8.7 5.3 3.3-5.3 3.3V8.7Z" className="social-icon__cutout" />
-      </svg>
-    )
-  }
-
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path d="M15.4 3c.4 2.2 1.7 3.6 3.8 3.8v3.1a8.6 8.6 0 0 1-3.8-1.1v6.5a5.8 5.8 0 1 1-5-5.7v3.2a2.6 2.6 0 1 0 1.8 2.5V3h3.2Z" />
-    </svg>
-  )
-}
-
 export function FinalResult({
   totalScore,
   answeredCount,
@@ -144,15 +117,15 @@ export function FinalResult({
           <h3>Acompanhe a Quero Bolsa e o Preparadão nas redes sociais</h3>
           <div className="result__social-links">
             <a href={links.instagram} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar o Preparadão no Instagram em uma nova aba">
-              <SocialIcon name="instagram" />
+              <img src="/brand/social/instagram.svg" alt="" aria-hidden="true" />
               <span>Instagram</span>
             </a>
             <a href={links.tiktok} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar a Quero Bolsa no TikTok em uma nova aba">
-              <SocialIcon name="tiktok" />
+              <img src="/brand/social/tiktok.svg" alt="" aria-hidden="true" />
               <span>TikTok</span>
             </a>
             <a href={links.youtube} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar a Quero Bolsa no YouTube em uma nova aba">
-              <SocialIcon name="youtube" />
+              <img src="/brand/social/youtube.svg" alt="" aria-hidden="true" />
               <span>YouTube</span>
             </a>
           </div>
