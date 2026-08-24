@@ -1,0 +1,3202 @@
+[
+  {
+    "number": 1,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Variação linguística",
+    "stem": "Leia o trecho:\n\n“Nóis vai pra cidade todo dia cedinho, pega o trem das seis e chega lá quase oito.”\n\nA fala acima revela uma variedade linguística que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "É incorreta e deve ser corrigida em qualquer contexto."
+      },
+      {
+        "letter": "B",
+        "text": "Representa uma variação regional e social da língua portuguesa, perfeitamente funcional na comunicação."
+      },
+      {
+        "letter": "C",
+        "text": "Demonstra que o falante desconhece completamente a língua portuguesa."
+      },
+      {
+        "letter": "D",
+        "text": "É exclusiva de pessoas não alfabetizadas."
+      },
+      {
+        "letter": "E",
+        "text": "Representa um erro gramatical que impede a compreensão da mensagem."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O ENEM não trata variação linguística como “erro”. Toda variedade que cumpre sua função comunicativa é legítima. A norma culta é uma entre várias formas de falar, e nenhuma é superior à outra — cada uma é adequada ao seu contexto. Palavras-chave: variação diastrática (social) e diatópica (regional)."
+  },
+  {
+    "number": 2,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Gêneros textuais",
+    "stem": "Uma receita de bolo publicada em um blog de culinária e um artigo científico sobre química alimentar podem tratar do mesmo assunto. A principal diferença entre eles está:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "No tema abordado."
+      },
+      {
+        "letter": "B",
+        "text": "Na língua em que são escritos."
+      },
+      {
+        "letter": "C",
+        "text": "No propósito comunicativo e no público-alvo."
+      },
+      {
+        "letter": "D",
+        "text": "No fato de um ser verdadeiro e o outro fictício."
+      },
+      {
+        "letter": "E",
+        "text": "Na extensão dos textos."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Gêneros textuais se diferenciam pelo propósito (instruir vs. informar cientificamente), pelo público e pelo suporte. O tema pode ser o mesmo; o que muda é a finalidade e a forma de dizer."
+  },
+  {
+    "number": 3,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Funções da linguagem",
+    "stem": "“Não te esqueças de que o maior prazer de viver está em descobrir o mundo.”\n\nNesse enunciado, a função da linguagem predominante é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Referencial — foco na informação objetiva."
+      },
+      {
+        "letter": "B",
+        "text": "Emotiva — foco no emissor e suas emoções."
+      },
+      {
+        "letter": "C",
+        "text": "Conativa — foco no receptor, buscando influenciá-lo."
+      },
+      {
+        "letter": "D",
+        "text": "Metalinguística — foco no código linguístico."
+      },
+      {
+        "letter": "E",
+        "text": "Fática — foco no canal de comunicação."
+      }
+    ],
+    "answer": "C",
+    "explanation": "O verbo no imperativo (“não te esqueças”) e o tom de conselho indicam que o foco está no receptor — a intenção é influenciar o comportamento de quem lê. Isso caracteriza a função conativa (ou apelativa)."
+  },
+  {
+    "number": 4,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Figuras de linguagem",
+    "stem": "“A cidade inteira dormia quando a notícia explodiu.”\n\nAs figuras de linguagem presentes nesse trecho são, respectivamente:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Hipérbole e metáfora."
+      },
+      {
+        "letter": "B",
+        "text": "Metonímia e comparação."
+      },
+      {
+        "letter": "C",
+        "text": "Prosopopeia e eufemismo."
+      },
+      {
+        "letter": "D",
+        "text": "Metonímia e metáfora."
+      },
+      {
+        "letter": "E",
+        "text": "Hipérbole e ironia."
+      }
+    ],
+    "answer": "D",
+    "explanation": "“A cidade dormia” é metonímia — o lugar (cidade) substitui as pessoas (os habitantes). “A notícia explodiu” é metáfora — atribui à notícia uma característica (explosão) que não é literal. Dica: metonímia é substituição (parte pelo todo, lugar pelas pessoas); metáfora é comparação implícita."
+  },
+  {
+    "number": 5,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Interpretação de texto",
+    "stem": "“O analfabeto político é tão burro que se orgulha e estufa o peito dizendo que odeia a política. Não sabe o imbecil que, da sua ignorância política, nasce a prostituta, o menor abandonado, e o pior de todos os bandidos, que é o político vigarista, pilantra, corrupto e lacaio das empresas nacionais e multinacionais.” — Bertolt Brecht\n\nO texto de Brecht defende que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A política é uma atividade exclusiva de profissionais."
+      },
+      {
+        "letter": "B",
+        "text": "O desinteresse pela política contribui para a manutenção de problemas sociais."
+      },
+      {
+        "letter": "C",
+        "text": "A ignorância política é um direito do cidadão comum."
+      },
+      {
+        "letter": "D",
+        "text": "Os problemas sociais existem independentemente da participação política."
+      },
+      {
+        "letter": "E",
+        "text": "O ódio à política é uma forma legítima de protesto."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Brecht argumenta que o desinteresse pela política (“analfabeto político”) gera consequências concretas — corrupção, abandono social, exploração. O texto defende que a omissão política não é neutra: ela permite que os piores ocupem o poder."
+  },
+  {
+    "number": 6,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Intertextualidade",
+    "stem": "Texto 1: “Minha terra tem palmeiras, onde canta o sabiá.” (Gonçalves Dias)\n\nTexto 2: “Minha terra tem palmares, onde gorjeia a senzala.” (Oswald de Andrade)\n\nA relação entre os dois textos é de:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Plágio, pois o segundo copia a estrutura do primeiro."
+      },
+      {
+        "letter": "B",
+        "text": "Paráfrase, pois o segundo repete a mesma ideia com outras palavras."
+      },
+      {
+        "letter": "C",
+        "text": "Paródia, pois o segundo subverte o sentido do primeiro com intenção crítica."
+      },
+      {
+        "letter": "D",
+        "text": "Citação, pois o segundo reproduz trechos literais do primeiro."
+      },
+      {
+        "letter": "E",
+        "text": "Tradução, pois o segundo adapta o primeiro para outra língua."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Oswald de Andrade usa a mesma estrutura de Gonçalves Dias, mas subverte o sentido: troca o tom ufanista (“palmeiras/sabiá”) por uma crítica histórica (“palmares/senzala”), denunciando a escravidão. Isso é paródia — imitação com desvio crítico."
+  },
+  {
+    "number": 7,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Literatura: Modernismo",
+    "stem": "A Semana de Arte Moderna de 1922 representou:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A consolidação do estilo parnasiano na literatura brasileira."
+      },
+      {
+        "letter": "B",
+        "text": "A ruptura com padrões artísticos tradicionais e a busca por uma identidade cultural brasileira."
+      },
+      {
+        "letter": "C",
+        "text": "O início do Romantismo no Brasil."
+      },
+      {
+        "letter": "D",
+        "text": "A adoção integral de modelos artísticos europeus."
+      },
+      {
+        "letter": "E",
+        "text": "O fim de toda produção literária no Brasil."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A Semana de 22 foi um marco de ruptura — os modernistas rejeitaram o academicismo e propuseram uma arte genuinamente brasileira, valorizando a linguagem coloquial, temas nacionais e a liberdade formal. Nomes-chave: Oswald de Andrade, Mário de Andrade, Tarsila do Amaral."
+  },
+  {
+    "number": 8,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Coesão textual",
+    "stem": "“O Brasil é um dos maiores produtores de alimentos do mundo. \\_\\_\\_\\_\\_\\_\\_\\_, milhões de brasileiros passam fome.”\n\nO conectivo que melhor completa a lacuna é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Portanto"
+      },
+      {
+        "letter": "B",
+        "text": "Além disso"
+      },
+      {
+        "letter": "C",
+        "text": "No entanto"
+      },
+      {
+        "letter": "D",
+        "text": "Ou seja"
+      },
+      {
+        "letter": "E",
+        "text": "Assim"
+      }
+    ],
+    "answer": "C",
+    "explanation": "As duas frases apresentam uma contradição (produz muito, mas há fome). “No entanto” é um conectivo adversativo — liga ideias opostas. “Portanto” indica conclusão, “além disso” indica adição, “ou seja” indica explicação, “assim” indica consequência. Dica para redação: dominar conectivos é fundamental para a Competência 4."
+  },
+  {
+    "number": 9,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Linguagem verbal e não verbal",
+    "stem": "Uma campanha publicitária mostra a imagem de uma torneira pingando sobre o planeta Terra, com os dizeres: “Cada gota conta.”\n\nA estratégia comunicativa desse anúncio combina:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Apenas linguagem verbal."
+      },
+      {
+        "letter": "B",
+        "text": "Apenas linguagem não verbal."
+      },
+      {
+        "letter": "C",
+        "text": "Linguagem verbal e não verbal, criando um sentido de urgência ambiental."
+      },
+      {
+        "letter": "D",
+        "text": "Linguagem verbal e não verbal, mas sem relação entre elas."
+      },
+      {
+        "letter": "E",
+        "text": "Linguagem técnica direcionada a especialistas."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A imagem (não verbal) e o texto (verbal) se complementam para produzir sentido. A torneira sobre o planeta é uma metáfora visual do desperdício de água, e o texto reforça a mensagem. O ENEM adora questões que combinam imagem e texto."
+  },
+  {
+    "number": 10,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Interpretação de charge/tirinha",
+    "stem": "Uma tirinha mostra dois personagens. O primeiro diz: “Estou conectado 24 horas por dia.” O segundo responde: “E com as pessoas ao seu redor, está conectado também?”\n\nA tirinha faz uma crítica a:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A falta de acesso à internet no Brasil."
+      },
+      {
+        "letter": "B",
+        "text": "O uso excessivo de tecnologia em detrimento das relações presenciais."
+      },
+      {
+        "letter": "C",
+        "text": "A velocidade da internet brasileira."
+      },
+      {
+        "letter": "D",
+        "text": "O alto custo dos smartphones."
+      },
+      {
+        "letter": "E",
+        "text": "A falta de aplicativos de comunicação."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A tirinha usa ironia para criticar o paradoxo da hiperconectividade digital × desconexão humana. Estar “conectado” à internet não significa estar presente nas relações reais. Tema frequente no ENEM e útil para redações sobre tecnologia."
+  },
+  {
+    "number": 11,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Semântica: denotação e conotação",
+    "stem": "“Ele tem um coração de pedra.”\n\nO sentido da expressão destacada é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Denotativo — o coração é literalmente feito de pedra."
+      },
+      {
+        "letter": "B",
+        "text": "Conotativo — indica que a pessoa é insensível ou fria."
+      },
+      {
+        "letter": "C",
+        "text": "Ambíguo — pode ter dois sentidos válidos."
+      },
+      {
+        "letter": "D",
+        "text": "Denotativo — refere-se a um problema cardíaco."
+      },
+      {
+        "letter": "E",
+        "text": "Conotativo — indica que a pessoa é corajosa."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Sentido conotativo (figurado): “coração de pedra” significa insensibilidade, frieza emocional. Se fosse denotativo (literal), significaria que o órgão é feito de rocha — o que não faz sentido. Dica: o ENEM testa muito a diferença entre o que o texto diz literalmente e o que ele quer dizer."
+  },
+  {
+    "number": 12,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Língua estrangeira (Inglês)",
+    "stem": "Leia o seguinte trecho de uma reportagem:\n\n“Climate change is no longer a distant threat. Rising temperatures, extreme weather events, and melting ice caps are affecting millions of people around the world right now.”\n\nDe acordo com o texto, as mudanças climáticas:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "São uma ameaça que só ocorrerá no futuro."
+      },
+      {
+        "letter": "B",
+        "text": "Já estão impactando milhões de pessoas no presente."
+      },
+      {
+        "letter": "C",
+        "text": "Afetam apenas regiões polares."
+      },
+      {
+        "letter": "D",
+        "text": "Foram resolvidas por acordos internacionais."
+      },
+      {
+        "letter": "E",
+        "text": "São uma teoria sem evidências concretas."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A chave está em “no longer a distant threat” (não é mais uma ameaça distante) e “right now” (agora mesmo). O texto afirma que os efeitos já estão acontecendo. Dica: no ENEM, questões de inglês exigem compreensão global, não tradução palavra por palavra."
+  },
+  {
+    "number": 13,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Gêneros digitais",
+    "stem": "Um tweet, um e-mail corporativo e uma carta formal podem tratar do mesmo assunto. O que determina as diferenças entre eles é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Apenas o tamanho do texto."
+      },
+      {
+        "letter": "B",
+        "text": "O suporte, o registro linguístico e a relação entre interlocutores."
+      },
+      {
+        "letter": "C",
+        "text": "A veracidade das informações."
+      },
+      {
+        "letter": "D",
+        "text": "A idade do autor."
+      },
+      {
+        "letter": "E",
+        "text": "O uso de imagens."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O suporte (rede social, e-mail, papel), o registro (informal, semiformal, formal) e a relação entre quem escreve e quem lê determinam as características de cada gênero. Um tweet é curto e informal; um e-mail corporativo é objetivo e semiformal; uma carta formal segue convenções rígidas."
+  },
+  {
+    "number": 14,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Literatura: Romantismo",
+    "stem": "No Romantismo brasileiro, o indianismo cumpriu o papel de:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Denunciar as condições de vida dos povos indígenas na atualidade."
+      },
+      {
+        "letter": "B",
+        "text": "Criar um herói nacional idealizado, representando a identidade brasileira em oposição à europeia."
+      },
+      {
+        "letter": "C",
+        "text": "Documentar de forma realista os costumes dos povos originários."
+      },
+      {
+        "letter": "D",
+        "text": "Promover políticas de proteção aos territórios indígenas."
+      },
+      {
+        "letter": "E",
+        "text": "Criticar o processo de colonização portuguesa."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O indianismo romântico (José de Alencar, Gonçalves Dias) idealizou o indígena como herói nacional — corajoso, nobre e puro. Não era um retrato realista, mas uma construção simbólica para afirmar uma identidade brasileira independente da Europa. O índio romântico é um mito fundador, não um retrato etnográfico."
+  },
+  {
+    "number": 15,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Tipologia textual",
+    "stem": "Um texto que apresenta uma tese, desenvolve argumentos e busca convencer o leitor pertence ao tipo:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Narrativo."
+      },
+      {
+        "letter": "B",
+        "text": "Descritivo."
+      },
+      {
+        "letter": "C",
+        "text": "Injuntivo."
+      },
+      {
+        "letter": "D",
+        "text": "Dissertativo-argumentativo."
+      },
+      {
+        "letter": "E",
+        "text": "Expositivo."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dissertativo-argumentativo é o tipo cobrado na redação do ENEM. Suas marcas: tese (opinião), argumentos (fundamentação), linguagem impessoal e proposta de intervenção. Narrativo conta uma história; descritivo detalha características; injuntivo dá instruções; expositivo apresenta informações sem defender uma posição."
+  },
+  {
+    "number": 16,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Figuras de linguagem: ironia",
+    "stem": "“Que belo exemplo de cidadão: jogou lixo pela janela do carro e ainda buzinou para o pedestre na faixa.”\n\nA figura de linguagem predominante é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Eufemismo."
+      },
+      {
+        "letter": "B",
+        "text": "Hipérbole."
+      },
+      {
+        "letter": "C",
+        "text": "Ironia."
+      },
+      {
+        "letter": "D",
+        "text": "Metáfora."
+      },
+      {
+        "letter": "E",
+        "text": "Comparação."
+      }
+    ],
+    "answer": "C",
+    "explanation": "O autor diz o contrário do que pensa. Chamar de “belo exemplo de cidadão” alguém que joga lixo e desrespeita pedestres é ironia — dizer uma coisa para significar o oposto. Dica: ironia no ENEM quase sempre aparece em tirinhas, crônicas e textos opinativos."
+  },
+  {
+    "number": 17,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Adequação linguística",
+    "stem": "Em uma entrevista de emprego, o candidato disse: “Aí, tipo, eu mano, trabalhei num lugar lá que era bem legal, saca?”\n\nO problema dessa fala não é que ela seja “errada”, mas que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Contém erros gramaticais graves."
+      },
+      {
+        "letter": "B",
+        "text": "Usa uma variedade inadequada ao contexto formal da situação."
+      },
+      {
+        "letter": "C",
+        "text": "É incompreensível para o entrevistador."
+      },
+      {
+        "letter": "D",
+        "text": "Demonstra falta de vocabulário."
+      },
+      {
+        "letter": "E",
+        "text": "Deveria ser feita em língua estrangeira."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Não existe fala “errada” em termos absolutos — existe fala inadequada ao contexto. Uma entrevista de emprego exige registro formal. A mesma fala seria perfeitamente adequada numa conversa entre amigos. O ENEM avalia se o candidato entende o conceito de adequação (e não de “certo/errado”)."
+  },
+  {
+    "number": 18,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Literatura: Realismo",
+    "stem": "O Realismo brasileiro (segunda metade do séc. XIX) se diferenciou do Romantismo por:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Idealizar os sentimentos e a natureza."
+      },
+      {
+        "letter": "B",
+        "text": "Retratar a sociedade de forma crítica, expondo contradições e hipocrisias."
+      },
+      {
+        "letter": "C",
+        "text": "Valorizar o escapismo e a fantasia."
+      },
+      {
+        "letter": "D",
+        "text": "Focar exclusivamente em temas indígenas."
+      },
+      {
+        "letter": "E",
+        "text": "Rejeitar qualquer forma de narrativa em prosa."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O Realismo abandonou a idealização romântica e passou a retratar a sociedade como ela era — com suas contradições, hipocrisia e desigualdades. Machado de Assis é o grande nome: em obras como Memórias Póstumas de Brás Cubas, ele desmonta a elite brasileira com ironia fina."
+  },
+  {
+    "number": 19,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Interpretação de propaganda",
+    "stem": "Uma campanha do governo traz a imagem de uma pessoa lavando as mãos, com o texto: “Suas mãos podem salvar vidas.”\n\nO efeito de sentido dessa campanha se baseia em:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Uma linguagem exclusivamente técnica."
+      },
+      {
+        "letter": "B",
+        "text": "Uma ambiguidade proposital: “mãos” representam tanto higiene quanto responsabilidade individual."
+      },
+      {
+        "letter": "C",
+        "text": "Uma contradição interna do texto."
+      },
+      {
+        "letter": "D",
+        "text": "Uma referência literária clássica."
+      },
+      {
+        "letter": "E",
+        "text": "Um uso exclusivo de linguagem não verbal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "“Suas mãos” funciona em dois níveis: literal (higiene, lavar as mãos) e figurado (suas ações, sua responsabilidade). A campanha explora essa polissemia para tornar a mensagem mais impactante. O ENEM adora questões sobre duplo sentido em propagandas."
+  },
+  {
+    "number": 20,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Literatura contemporânea",
+    "stem": "A literatura marginal/periférica brasileira, representada por autores como Ferréz e Sérgio Vaz, se caracteriza por:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Seguir os padrões estéticos do Parnasianismo."
+      },
+      {
+        "letter": "B",
+        "text": "Dar voz a grupos socialmente marginalizados, retratando a realidade das periferias urbanas."
+      },
+      {
+        "letter": "C",
+        "text": "Ser produzida exclusivamente por editoras de grande porte."
+      },
+      {
+        "letter": "D",
+        "text": "Rejeitar qualquer forma de engajamento político."
+      },
+      {
+        "letter": "E",
+        "text": "Ser escrita em língua estrangeira para alcançar público internacional."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A literatura marginal/periférica nasce nas periferias e fala sobre elas — violência, desigualdade, resistência, identidade. É uma literatura de representatividade: quem vive na periferia conta sua própria história, sem intermediários. Tema cada vez mais presente no ENEM."
+  },
+  {
+    "number": 21,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Variação histórica",
+    "stem": "A palavra “você” surgiu a partir de “Vossa Mercê”, passando por “vosmecê” até chegar à forma atual. Esse processo demonstra:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Que a língua portuguesa está se deteriorando."
+      },
+      {
+        "letter": "B",
+        "text": "Que a língua é um sistema dinâmico que muda ao longo do tempo (variação diacrônica)."
+      },
+      {
+        "letter": "C",
+        "text": "Que apenas a norma culta é legítima."
+      },
+      {
+        "letter": "D",
+        "text": "Que o português falado no Brasil é inferior ao de Portugal."
+      },
+      {
+        "letter": "E",
+        "text": "Que as mudanças linguísticas são sempre planejadas por gramáticos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Variação diacrônica é a mudança da língua ao longo do tempo. Toda língua viva muda — isso não é degeneração, é evolução natural. O ENEM reforça essa visão: a língua é viva, dinâmica e se transforma com seus falantes."
+  },
+  {
+    "number": 22,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Funções da linguagem: metalinguística",
+    "stem": "“Lutar com palavras é a luta mais vã. Entanto luto corpo a corpo com elas.” (Carlos Drummond de Andrade)\n\nA função predominante é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Referencial — informa sobre um fato."
+      },
+      {
+        "letter": "B",
+        "text": "Emotiva — expressa sentimentos do autor."
+      },
+      {
+        "letter": "C",
+        "text": "Metalinguística — a linguagem reflete sobre si mesma."
+      },
+      {
+        "letter": "D",
+        "text": "Fática — testa o canal de comunicação."
+      },
+      {
+        "letter": "E",
+        "text": "Poética — foco na forma da mensagem."
+      }
+    ],
+    "answer": "C",
+    "explanation": "O poeta fala sobre o ato de escrever — usa palavras para falar sobre palavras. Isso é metalinguagem. Atenção: a função poética também está presente (pela forma), mas a predominante é metalinguística, porque o tema central é a própria linguagem."
+  },
+  {
+    "number": 23,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Norma culta vs. norma popular",
+    "stem": "“Os menino tudo foi pro jogo ontem.”\n\nDo ponto de vista da sociolinguística, essa frase:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "É agramatical e incompreensível."
+      },
+      {
+        "letter": "B",
+        "text": "Segue regras próprias de uma variedade popular da língua, com concordância diferente da norma culta."
+      },
+      {
+        "letter": "C",
+        "text": "Não pertence à língua portuguesa."
+      },
+      {
+        "letter": "D",
+        "text": "Só é usada por falantes não nativos."
+      },
+      {
+        "letter": "E",
+        "text": "Demonstra que o falante não sabe se comunicar."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Na variedade popular, a marca de plural tende a aparecer apenas no primeiro elemento (“os menino” em vez de “os meninos”). Isso não é “falta de regra” — é uma regra diferente. A sociolinguística (e o ENEM) reconhece que toda variedade tem gramática própria."
+  },
+  {
+    "number": 24,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Artes: movimentos artísticos",
+    "stem": "O Impressionismo (séc. XIX) rompeu com a pintura acadêmica ao:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Priorizar temas religiosos e históricos."
+      },
+      {
+        "letter": "B",
+        "text": "Valorizar a luz natural, as cores e as impressões visuais do momento."
+      },
+      {
+        "letter": "C",
+        "text": "Usar exclusivamente preto e branco."
+      },
+      {
+        "letter": "D",
+        "text": "Rejeitar qualquer representação da natureza."
+      },
+      {
+        "letter": "E",
+        "text": "Seguir regras rígidas de composição clássica."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Impressionistas como Monet e Renoir pintavam ao ar livre, capturando os efeitos da luz sobre os objetos em diferentes momentos do dia. Não buscavam a “fotografia perfeita”, mas a impressão sensorial do instante. A ruptura com o academicismo abriu caminho para toda a arte moderna."
+  },
+  {
+    "number": 25,
+    "areaId": 1,
+    "area": "LINGUAGENS, CÓDIGOS E SUAS TECNOLOGIAS",
+    "areaShort": "Linguagens",
+    "theme": "Tecnologias da informação",
+    "stem": "A expressão “bolha informacional” refere-se ao fenômeno em que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Todas as pessoas têm acesso às mesmas informações na internet."
+      },
+      {
+        "letter": "B",
+        "text": "Algoritmos de redes sociais filtram conteúdos e mostram apenas o que reforça as crenças do usuário."
+      },
+      {
+        "letter": "C",
+        "text": "A internet garante diversidade de opiniões para todos."
+      },
+      {
+        "letter": "D",
+        "text": "As notícias falsas são automaticamente bloqueadas por algoritmos."
+      },
+      {
+        "letter": "E",
+        "text": "Os usuários escolhem conscientemente o conteúdo que consomem."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Algoritmos de recomendação criam “bolhas”: o usuário vê cada vez mais do que já concorda, e cada vez menos do que desafia suas crenças. Isso polariza o debate e dificulta o diálogo democrático. Conceito de Eli Pariser (O Filtro Invisível). Tema frequente no ENEM e útil para redações.\n\n## ÁREA 2 — CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS (Questões 26–50)"
+  },
+  {
+    "number": 26,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Brasil Colônia: escravidão",
+    "stem": "A escravidão no Brasil colonial não foi apenas um sistema de trabalho, mas também:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Uma relação harmoniosa entre senhores e escravizados."
+      },
+      {
+        "letter": "B",
+        "text": "Um sistema que estruturou a sociedade, a economia e a cultura, cujos efeitos persistem até hoje."
+      },
+      {
+        "letter": "C",
+        "text": "Uma prática exclusiva das regiões açucareiras do Nordeste."
+      },
+      {
+        "letter": "D",
+        "text": "Um fenômeno de curta duração e impacto limitado."
+      },
+      {
+        "letter": "E",
+        "text": "Uma consequência direta da Revolução Industrial."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A escravidão no Brasil durou mais de 300 anos e moldou a estrutura social, econômica e racial do país. O racismo estrutural contemporâneo é consequência direta desse sistema. O ENEM cobra essa conexão passado-presente."
+  },
+  {
+    "number": 27,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Era Vargas",
+    "stem": "A Consolidação das Leis do Trabalho (CLT), criada em 1943 durante o governo Vargas, representou:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Uma concessão espontânea sem qualquer interesse político."
+      },
+      {
+        "letter": "B",
+        "text": "Uma estratégia de controle dos trabalhadores, combinando direitos reais com cooptação sindical."
+      },
+      {
+        "letter": "C",
+        "text": "A adoção do modelo comunista soviético no Brasil."
+      },
+      {
+        "letter": "D",
+        "text": "A eliminação de todas as desigualdades trabalhistas."
+      },
+      {
+        "letter": "E",
+        "text": "Uma medida exclusivamente voltada ao setor agrícola."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Vargas concedeu direitos reais (salário mínimo, férias, jornada de 8h), mas em troca controlou sindicatos (atrelados ao Estado) e proibiu greves. É o chamado trabalhismo: uma mistura de proteção social e controle político. O ENEM adora a ambiguidade da Era Vargas."
+  },
+  {
+    "number": 28,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Ditadura Militar",
+    "stem": "O AI-5 (Ato Institucional nº 5), decretado em 1968, significou:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O início da abertura democrática."
+      },
+      {
+        "letter": "B",
+        "text": "O endurecimento máximo do regime militar, com suspensão de direitos civis, censura total e fechamento do Congresso."
+      },
+      {
+        "letter": "C",
+        "text": "A anistia de presos políticos."
+      },
+      {
+        "letter": "D",
+        "text": "A volta das eleições diretas para presidente."
+      },
+      {
+        "letter": "E",
+        "text": "O fim da censura à imprensa."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O AI-5 foi o mais autoritário dos atos institucionais: suspendeu habeas corpus, permitiu cassações, fechou o Congresso e instituiu censura. Durou de 1968 a 1978 e marca o período mais violento da ditadura (os “anos de chumbo”)."
+  },
+  {
+    "number": 29,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Iluminismo",
+    "stem": "O Iluminismo do séc. XVIII defendia:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O poder absoluto dos reis e da Igreja."
+      },
+      {
+        "letter": "B",
+        "text": "A razão, a liberdade individual e a separação entre Estado e religião."
+      },
+      {
+        "letter": "C",
+        "text": "A manutenção do feudalismo."
+      },
+      {
+        "letter": "D",
+        "text": "A superioridade racial europeia como princípio filosófico."
+      },
+      {
+        "letter": "E",
+        "text": "O retorno aos valores da Idade Média."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Os iluministas (Voltaire, Rousseau, Montesquieu, Locke) defendiam que a razão deveria guiar a sociedade — não a tradição, a religião ou o poder absoluto. Influenciaram revoluções (Francesa, Americana) e estão na base dos direitos humanos modernos."
+  },
+  {
+    "number": 30,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Guerra Fria",
+    "stem": "A Guerra Fria (1947–1991) se caracterizou por:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Um conflito bélico direto entre EUA e URSS."
+      },
+      {
+        "letter": "B",
+        "text": "Uma disputa ideológica, tecnológica e geopolítica entre capitalismo e socialismo, sem confronto militar direto entre as superpotências."
+      },
+      {
+        "letter": "C",
+        "text": "A união de EUA e URSS contra a Europa."
+      },
+      {
+        "letter": "D",
+        "text": "A ausência total de conflitos armados no mundo."
+      },
+      {
+        "letter": "E",
+        "text": "A vitória imediata do socialismo."
+      }
+    ],
+    "answer": "B",
+    "explanation": "“Fria” porque as duas superpotências nunca se enfrentaram diretamente em guerra. Mas houve guerras “por procuração” (Coreia, Vietnã, Afeganistão), corrida armamentista, corrida espacial e intensa propaganda ideológica. O mundo ficou dividido em dois blocos."
+  },
+  {
+    "number": 31,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Revolução Industrial",
+    "stem": "Uma das principais consequências sociais da Revolução Industrial (séc. XVIII-XIX) foi:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A melhoria imediata das condições de vida de todos os trabalhadores."
+      },
+      {
+        "letter": "B",
+        "text": "O surgimento da classe operária urbana e a intensificação da exploração do trabalho, incluindo de mulheres e crianças."
+      },
+      {
+        "letter": "C",
+        "text": "O fim da desigualdade social na Europa."
+      },
+      {
+        "letter": "D",
+        "text": "A eliminação do trabalho manual."
+      },
+      {
+        "letter": "E",
+        "text": "A volta à economia agrícola."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A industrialização criou fábricas, e com elas a classe operária — trabalhadores em condições brutais (jornadas de 16h, sem direitos, salários miseráveis). Mulheres e crianças eram exploradas. Essa realidade gerou movimentos operários, sindicatos e, mais tarde, legislações trabalhistas."
+  },
+  {
+    "number": 32,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Urbanização brasileira",
+    "stem": "O processo de urbanização acelerada no Brasil (décadas de 1950–1980) gerou:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Cidades planejadas e com infraestrutura adequada para todos."
+      },
+      {
+        "letter": "B",
+        "text": "O crescimento desordenado de metrópoles, com periferias carentes de serviços básicos, favelização e desigualdade espacial."
+      },
+      {
+        "letter": "C",
+        "text": "O esvaziamento total do campo."
+      },
+      {
+        "letter": "D",
+        "text": "A eliminação da pobreza urbana."
+      },
+      {
+        "letter": "E",
+        "text": "A distribuição igualitária de equipamentos públicos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O êxodo rural massivo levou milhões à cidade sem que houvesse infraestrutura para recebê-los. O resultado: periferias sem saneamento, transporte precário, favelas e segregação socioespacial. As cidades brasileiras cresceram antes de se planejar."
+  },
+  {
+    "number": 33,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Globalização",
+    "stem": "A globalização econômica intensificou a interdependência entre nações, mas também:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Eliminou as desigualdades entre países ricos e pobres."
+      },
+      {
+        "letter": "B",
+        "text": "Aprofundou assimetrias, com países centrais controlando tecnologia e capital enquanto países periféricos fornecem matéria-prima e mão de obra barata."
+      },
+      {
+        "letter": "C",
+        "text": "Tornou todos os países igualmente desenvolvidos."
+      },
+      {
+        "letter": "D",
+        "text": "Acabou com as fronteiras nacionais."
+      },
+      {
+        "letter": "E",
+        "text": "Reduziu o poder das empresas multinacionais."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A globalização conectou economias, mas de forma desigual. Países ricos detêm tecnologia, capital e poder de decisão; países periféricos entram na cadeia global como fornecedores de commodities e mão de obra barata. A divisão internacional do trabalho persiste."
+  },
+  {
+    "number": 34,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Meio ambiente: biomas",
+    "stem": "O Cerrado brasileiro é frequentemente chamado de “berço das águas” porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "É o bioma mais chuvoso do Brasil."
+      },
+      {
+        "letter": "B",
+        "text": "Abriga nascentes de grandes bacias hidrográficas (Tocantins, São Francisco, Paraná, Paraguai) e funciona como regulador hídrico do país."
+      },
+      {
+        "letter": "C",
+        "text": "Possui a maior floresta tropical do mundo."
+      },
+      {
+        "letter": "D",
+        "text": "Está localizado na região litorânea."
+      },
+      {
+        "letter": "E",
+        "text": "Não sofre pressão do desmatamento."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O Cerrado alimenta 8 das 12 grandes bacias hidrográficas brasileiras. Suas raízes profundas alcançam os lençóis freáticos e mantêm os rios. Mas é o bioma mais ameaçado pelo agronegócio (já perdeu mais de 50% de sua cobertura original) e o menos protegido por unidades de conservação."
+  },
+  {
+    "number": 35,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Contratualismo",
+    "stem": "Para John Locke, o Estado existe para:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Controlar todas as esferas da vida privada."
+      },
+      {
+        "letter": "B",
+        "text": "Proteger os direitos naturais dos indivíduos (vida, liberdade e propriedade), e o povo pode resistir se o governo falhar nessa função."
+      },
+      {
+        "letter": "C",
+        "text": "Eliminar a propriedade privada."
+      },
+      {
+        "letter": "D",
+        "text": "Garantir o poder absoluto do monarca."
+      },
+      {
+        "letter": "E",
+        "text": "Impor uma religião oficial."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Locke é o pai do liberalismo político. Para ele, os indivíduos nascem com direitos naturais e criam o Estado (contrato social) para protegê-los. Se o governo violar esses direitos, o povo tem o direito de resistência. Diferente de Hobbes (que defende o poder absoluto) e Rousseau (que enfatiza a vontade geral)."
+  },
+  {
+    "number": 36,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Sociologia: desigualdade",
+    "stem": "O conceito de “racismo estrutural” significa que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O racismo existe apenas em atos individuais de preconceito."
+      },
+      {
+        "letter": "B",
+        "text": "O racismo está enraizado nas instituições, leis, economia e cultura, reproduzindo-se independentemente da intenção individual."
+      },
+      {
+        "letter": "C",
+        "text": "O racismo foi superado pela legislação brasileira."
+      },
+      {
+        "letter": "D",
+        "text": "Apenas pessoas declaradamente racistas perpetuam o racismo."
+      },
+      {
+        "letter": "E",
+        "text": "O racismo é um fenômeno exclusivo dos EUA."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Racismo estrutural (conceito de Silvio Almeida) significa que o racismo não é só um desvio moral individual — está na estrutura da sociedade: nas instituições, no mercado de trabalho, no sistema de justiça, na educação. Negros ganham menos, morrem mais, são mais encarcerados — não por acaso, mas por estrutura."
+  },
+  {
+    "number": 37,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Filosofia: Escola de Frankfurt",
+    "stem": "O conceito de “indústria cultural”, desenvolvido por Adorno e Horkheimer, refere-se a:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Uma indústria que produz equipamentos culturais (museus, teatros)."
+      },
+      {
+        "letter": "B",
+        "text": "A transformação da cultura em mercadoria padronizada, que aliena e manipula o consumidor em vez de promover reflexão crítica."
+      },
+      {
+        "letter": "C",
+        "text": "O apoio governamental à produção artística."
+      },
+      {
+        "letter": "D",
+        "text": "A democratização da cultura pela tecnologia."
+      },
+      {
+        "letter": "E",
+        "text": "O estímulo à criatividade individual."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Para a Escola de Frankfurt, a indústria cultural transforma arte e entretenimento em produtos padronizados de consumo de massa. O objetivo não é informar ou emancipar, mas entreter e conformar. A cultura vira mercadoria, e o consumidor vira passivo. Conceito essencial para redações sobre mídia e consumo."
+  },
+  {
+    "number": 38,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Movimentos sociais",
+    "stem": "Os movimentos sociais contemporâneos (feminismo, movimento negro, LGBTQIA+, MST) têm em comum:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A defesa de um partido político específico."
+      },
+      {
+        "letter": "B",
+        "text": "A luta por reconhecimento de direitos, visibilidade e transformação de estruturas de poder desiguais."
+      },
+      {
+        "letter": "C",
+        "text": "A rejeição de qualquer forma de diálogo com o Estado."
+      },
+      {
+        "letter": "D",
+        "text": "O uso exclusivo de violência como ferramenta de ação."
+      },
+      {
+        "letter": "E",
+        "text": "A defesa de interesses exclusivamente econômicos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Movimentos sociais contemporâneos lutam por direitos (civis, políticos, sociais, culturais) e pela transformação de estruturas de poder que marginalizam determinados grupos. Atuam por meio de protestos, ocupações, redes sociais, produção cultural e pressão legislativa."
+  },
+  {
+    "number": 39,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Geografia: migração",
+    "stem": "A crise migratória venezuelana no Brasil evidencia:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Que o Brasil não recebe imigrantes."
+      },
+      {
+        "letter": "B",
+        "text": "Que o acolhimento de refugiados envolve desafios logísticos, sociais e culturais, mesmo quando há legislação avançada."
+      },
+      {
+        "letter": "C",
+        "text": "Que a Lei de Migração brasileira proíbe a entrada de estrangeiros."
+      },
+      {
+        "letter": "D",
+        "text": "Que a xenofobia não existe no Brasil."
+      },
+      {
+        "letter": "E",
+        "text": "Que todos os imigrantes se integram facilmente."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A Lei de Migração (2017) é considerada avançada, mas a realidade é diferente: em Roraima, a chegada massiva de venezuelanos gerou tensão social, falta de infraestrutura, xenofobia e exploração trabalhista. A lei existe, mas a implementação é insuficiente."
+  },
+  {
+    "number": 40,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Mundo do trabalho",
+    "stem": "A “uberização” do trabalho se caracteriza por:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A garantia de todos os direitos trabalhistas pela plataforma."
+      },
+      {
+        "letter": "B",
+        "text": "A transferência de riscos e custos ao trabalhador, que é classificado como “autônomo” apesar de estar submetido a controle algorítmico."
+      },
+      {
+        "letter": "C",
+        "text": "A melhoria das condições de trabalho para todos."
+      },
+      {
+        "letter": "D",
+        "text": "A eliminação de qualquer forma de exploração."
+      },
+      {
+        "letter": "E",
+        "text": "A formalização de todos os trabalhadores de aplicativos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Na uberização, a plataforma define preços, rotas e horários (controle), mas classifica o trabalhador como autônomo (sem direitos). O trabalhador arca com todos os custos (carro, gasolina, manutenção, celular) e riscos (acidentes, doenças). O STF está julgando a existência de vínculo empregatício."
+  },
+  {
+    "number": 41,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Idade Média",
+    "stem": "O feudalismo europeu se baseava em:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Relações comerciais globalizadas."
+      },
+      {
+        "letter": "B",
+        "text": "Relações de suserania e vassalagem, com economia agrária de subsistência e forte influência da Igreja Católica."
+      },
+      {
+        "letter": "C",
+        "text": "Democracia direta."
+      },
+      {
+        "letter": "D",
+        "text": "Industrialização e urbanização."
+      },
+      {
+        "letter": "E",
+        "text": "Igualdade social entre todos os estamentos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "No feudalismo, o suserano concedia terras (feudos) ao vassalo em troca de fidelidade e serviço militar. A economia era agrária e de subsistência, a sociedade era estamental (clero, nobreza, servos) e a Igreja Católica exercia enorme poder político, cultural e espiritual."
+  },
+  {
+    "number": 42,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Questão agrária",
+    "stem": "A concentração fundiária no Brasil é um problema histórico que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Foi resolvido pela modernização agrícola."
+      },
+      {
+        "letter": "B",
+        "text": "Perpetua desigualdades sociais no campo, gera conflitos por terra e impede o acesso de pequenos produtores à propriedade."
+      },
+      {
+        "letter": "C",
+        "text": "Não tem relação com o período colonial."
+      },
+      {
+        "letter": "D",
+        "text": "Beneficia igualmente grandes e pequenos produtores."
+      },
+      {
+        "letter": "E",
+        "text": "Foi eliminada pelo Estatuto da Terra."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A concentração de terras no Brasil vem desde as capitanias hereditárias e as sesmarias coloniais. Até hoje, poucos latifundiários detêm a maior parte das terras produtivas, enquanto milhões de famílias não têm acesso à terra. O MST e os conflitos agrários são consequências dessa estrutura."
+  },
+  {
+    "number": 43,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Filosofia: ética",
+    "stem": "Para Immanuel Kant, uma ação moral é aquela que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Traz prazer ao indivíduo."
+      },
+      {
+        "letter": "B",
+        "text": "É realizada por dever, seguindo um princípio universal que poderia valer para todos (imperativo categórico)."
+      },
+      {
+        "letter": "C",
+        "text": "Atende aos interesses da maioria."
+      },
+      {
+        "letter": "D",
+        "text": "É determinada pela religião."
+      },
+      {
+        "letter": "E",
+        "text": "Busca o lucro pessoal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O imperativo categórico de Kant: “Age de modo que a máxima de tua ação possa ser elevada a lei universal.” Ou seja: antes de agir, pergunte-se se todo mundo pudesse fazer o mesmo, o mundo ainda funcionaria? Se sim, a ação é moral. A intenção importa mais que o resultado."
+  },
+  {
+    "number": 44,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Sociologia: clássicos",
+    "stem": "Para Émile Durkheim, os “fatos sociais” são:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Criações individuais sem influência do coletivo."
+      },
+      {
+        "letter": "B",
+        "text": "Maneiras de agir, pensar e sentir que são externas ao indivíduo, coercitivas e gerais — existem antes de nós e nos moldam."
+      },
+      {
+        "letter": "C",
+        "text": "Apenas leis escritas pelo governo."
+      },
+      {
+        "letter": "D",
+        "text": "Fenômenos biológicos."
+      },
+      {
+        "letter": "E",
+        "text": "Escolhas puramente racionais de cada pessoa."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Para Durkheim, o fato social tem três características: exterioridade (existe fora do indivíduo), coercitividade (nos obriga a seguir) e generalidade (atinge toda a sociedade). Exemplo: a língua que falamos, as leis, os costumes — ninguém os criou sozinho, mas todos somos moldados por eles."
+  },
+  {
+    "number": 45,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Geopolítica",
+    "stem": "A criação da ONU (1945) teve como principal objetivo:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Garantir a dominação militar dos EUA."
+      },
+      {
+        "letter": "B",
+        "text": "Promover a paz internacional e a cooperação entre nações após a devastação da Segunda Guerra Mundial."
+      },
+      {
+        "letter": "C",
+        "text": "Substituir os governos nacionais por um governo mundial."
+      },
+      {
+        "letter": "D",
+        "text": "Impor o socialismo em todos os países."
+      },
+      {
+        "letter": "E",
+        "text": "Eliminar todas as guerras imediatamente."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Após duas guerras mundiais, a ONU foi criada para evitar novos conflitos, promover direitos humanos, desenvolvimento e cooperação internacional. Suas limitações (poder de veto do Conselho de Segurança, falta de exército próprio) são tema frequente no ENEM."
+  },
+  {
+    "number": 46,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Geografia: fontes de energia",
+    "stem": "A matriz energética brasileira é considerada relativamente limpa porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O Brasil não utiliza combustíveis fósseis."
+      },
+      {
+        "letter": "B",
+        "text": "Uma parcela significativa da energia vem de fontes renováveis, especialmente hidrelétricas, com crescimento de eólica e solar."
+      },
+      {
+        "letter": "C",
+        "text": "O Brasil aboliu completamente o uso de petróleo."
+      },
+      {
+        "letter": "D",
+        "text": "Toda energia brasileira é nuclear."
+      },
+      {
+        "letter": "E",
+        "text": "O Brasil importa toda a sua energia."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cerca de 80% da eletricidade brasileira vem de fontes renováveis (hidrelétricas dominam, eólica e solar crescem rápido). Mas a matriz total (incluindo transportes e indústria) ainda depende de petróleo e gás. O desafio é descarbonizar os setores que ainda são fósseis."
+  },
+  {
+    "number": 47,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "República Velha",
+    "stem": "O coronelismo na República Velha (1889–1930) se baseava em:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Eleições transparentes e democráticas."
+      },
+      {
+        "letter": "B",
+        "text": "O poder local de coronéis que trocavam votos por favores, controlando eleitores pelo voto de cabresto e pela fraude eleitoral."
+      },
+      {
+        "letter": "C",
+        "text": "A participação ativa de todas as classes sociais na política."
+      },
+      {
+        "letter": "D",
+        "text": "A separação clara entre poder econômico e poder político."
+      },
+      {
+        "letter": "E",
+        "text": "A urbanização acelerada do interior."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Coronéis eram grandes proprietários rurais que controlavam a política local. O “voto de cabresto” garantia que eleitores votassem em quem o coronel mandasse (o voto era aberto, não secreto). Fraudes eram comuns. Esse sistema sustentava a “política dos governadores” e a alternância café-com-leite (SP e MG)."
+  },
+  {
+    "number": 48,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Segunda Guerra Mundial",
+    "stem": "O Holocausto (1941–1945) foi:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Um conflito entre nações europeias por território."
+      },
+      {
+        "letter": "B",
+        "text": "O genocídio sistemático de aproximadamente 6 milhões de judeus e outros grupos perseguidos pelo regime nazista, representando a industrialização do extermínio."
+      },
+      {
+        "letter": "C",
+        "text": "Uma guerra civil alemã."
+      },
+      {
+        "letter": "D",
+        "text": "Um evento restrito à Primeira Guerra Mundial."
+      },
+      {
+        "letter": "E",
+        "text": "Uma invenção propagandística sem base histórica."
+      }
+    ],
+    "answer": "B",
+    "explanation": "O Holocausto foi o genocídio planejado e executado pelo Estado nazista. Judeus, ciganos, homossexuais, deficientes e opositores foram exterminados em campos de concentração. É o maior exemplo histórico do que acontece quando o Estado institucionaliza o ódio. O ENEM usa o Holocausto para discutir direitos humanos e intolerância."
+  },
+  {
+    "number": 49,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Filosofia: existencialismo",
+    "stem": "A famosa frase de Jean-Paul Sartre, “a existência precede a essência”, significa que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Os seres humanos nascem com um propósito definido pela natureza."
+      },
+      {
+        "letter": "B",
+        "text": "Não existe uma natureza humana fixa — primeiro existimos, depois nos definimos por nossas escolhas e ações."
+      },
+      {
+        "letter": "C",
+        "text": "A essência é mais importante que a existência."
+      },
+      {
+        "letter": "D",
+        "text": "Apenas a religião pode definir quem somos."
+      },
+      {
+        "letter": "E",
+        "text": "O ser humano é determinado inteiramente pela genética."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Para Sartre, não nascemos com um “manual de instruções”. Primeiro existimos, depois nos construímos pelas escolhas que fazemos. Isso nos dá liberdade, mas também responsabilidade total: “estamos condenados a ser livres”. Conceito central do existencialismo."
+  },
+  {
+    "number": 50,
+    "areaId": 2,
+    "area": "CIÊNCIAS HUMANAS E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências Humanas",
+    "theme": "Cidadania e direitos humanos",
+    "stem": "A Declaração Universal dos Direitos Humanos (1948) estabeleceu que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Apenas cidadãos de países democráticos têm direitos."
+      },
+      {
+        "letter": "B",
+        "text": "Todos os seres humanos nascem livres e iguais em dignidade e direitos, independentemente de raça, gênero, religião ou nacionalidade."
+      },
+      {
+        "letter": "C",
+        "text": "Os direitos humanos valem apenas para adultos."
+      },
+      {
+        "letter": "D",
+        "text": "Cada país pode definir quais direitos reconhece."
+      },
+      {
+        "letter": "E",
+        "text": "Os direitos humanos se aplicam apenas em tempos de paz."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A DUDH é o documento fundador dos direitos humanos modernos. Proclama a universalidade: os direitos valem para todos, em todo lugar, o tempo todo. Criada no pós-guerra como resposta ao Holocausto e às atrocidades da Segunda Guerra. Base para a Constituição brasileira de 1988.\n\n## ÁREA 3 — CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS (Questões 51–75)"
+  },
+  {
+    "number": 51,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Ecologia: cadeia alimentar",
+    "stem": "Em uma cadeia alimentar, se uma substância tóxica for lançada na água e absorvida pelo fitoplâncton, os organismos mais afetados serão:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O próprio fitoplâncton."
+      },
+      {
+        "letter": "B",
+        "text": "Os consumidores do topo da cadeia, devido à bioacumulação (magnificação trófica)."
+      },
+      {
+        "letter": "C",
+        "text": "Os decompositores, que não participam da cadeia."
+      },
+      {
+        "letter": "D",
+        "text": "Os produtores, exclusivamente."
+      },
+      {
+        "letter": "E",
+        "text": "Nenhum organismo, pois a substância se dilui."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bioacumulação (ou magnificação trófica): a concentração de substâncias tóxicas aumenta a cada nível trófico. O fitoplâncton absorve pouco, o peixe pequeno acumula mais, o peixe grande ainda mais, e a ave ou mamífero do topo recebe a maior carga. Exemplo clássico: DDT e águias."
+  },
+  {
+    "number": 52,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Genética: leis de Mendel",
+    "stem": "Em ervilhas, a cor amarela (V) é dominante sobre a verde (v). No cruzamento entre duas plantas heterozigóticas (Vv × Vv), a proporção fenotípica esperada é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "100% amarelas."
+      },
+      {
+        "letter": "B",
+        "text": "75% amarelas e 25% verdes (3:1)."
+      },
+      {
+        "letter": "C",
+        "text": "50% amarelas e 50% verdes."
+      },
+      {
+        "letter": "D",
+        "text": "100% verdes."
+      },
+      {
+        "letter": "E",
+        "text": "25% amarelas e 75% verdes."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cruzamento Vv × Vv: VV (amarela), Vv (amarela), Vv (amarela), vv (verde). Proporção genotípica: 1:2:1. Proporção fenotípica: 3 amarelas : 1 verde. É a 1ª Lei de Mendel (segregação dos fatores). Dica: sempre monte o quadro de Punnett."
+  },
+  {
+    "number": 53,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Fisiologia: sistema imunológico",
+    "stem": "As vacinas protegem o organismo porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Contêm antibióticos que matam os vírus."
+      },
+      {
+        "letter": "B",
+        "text": "Estimulam o sistema imunológico a produzir anticorpos e células de memória, preparando o corpo para um contato futuro com o agente infeccioso."
+      },
+      {
+        "letter": "C",
+        "text": "Curam doenças já instaladas."
+      },
+      {
+        "letter": "D",
+        "text": "Substituem o sistema imunológico."
+      },
+      {
+        "letter": "E",
+        "text": "Impedem qualquer tipo de infecção permanentemente."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Vacinas contêm antígenos (versões enfraquecidas, inativadas ou fragmentos do patógeno). O corpo reage produzindo anticorpos e células de memória. Se o patógeno real aparecer no futuro, a resposta será rápida e eficiente. Vacina é prevenção, não tratamento."
+  },
+  {
+    "number": 54,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Evolução",
+    "stem": "A seleção natural, proposta por Darwin, atua:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Tornando os organismos perfeitos ao longo do tempo."
+      },
+      {
+        "letter": "B",
+        "text": "Favorecendo indivíduos com características mais adaptadas ao ambiente, que sobrevivem e se reproduzem mais."
+      },
+      {
+        "letter": "C",
+        "text": "Criando novas espécies por vontade própria."
+      },
+      {
+        "letter": "D",
+        "text": "Eliminando todas as variações genéticas."
+      },
+      {
+        "letter": "E",
+        "text": "Atuando apenas em animais, não em plantas."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A seleção natural é o mecanismo central da evolução: em uma população com variação genética, os indivíduos mais adaptados ao ambiente têm mais chances de sobreviver e deixar descendentes. Não há “intenção” nem “direção” — é um processo cego, baseado em variação + seleção + tempo."
+  },
+  {
+    "number": 55,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Citologia: fotossíntese",
+    "stem": "A fotossíntese é essencial para a vida na Terra porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Consome oxigênio e produz gás carbônico."
+      },
+      {
+        "letter": "B",
+        "text": "Converte energia luminosa em energia química (glicose), liberando oxigênio como subproduto — base da cadeia alimentar e da atmosfera respirável."
+      },
+      {
+        "letter": "C",
+        "text": "Ocorre em todos os organismos vivos."
+      },
+      {
+        "letter": "D",
+        "text": "Produz energia apenas para a planta, sem impacto no ecossistema."
+      },
+      {
+        "letter": "E",
+        "text": "É um processo que ocorre apenas à noite."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equação simplificada: CO₂ + H₂O + luz → C₆H₁₂O₆ + O₂. A fotossíntese produz a glicose (alimento) e o oxigênio (atmosfera). Sem ela, não haveria base para as cadeias alimentares nem oxigênio para a respiração aeróbica."
+  },
+  {
+    "number": 56,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Ecologia: ciclo da água",
+    "stem": "O desmatamento de áreas de mananciais pode causar crises hídricas porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "As árvores consomem toda a água disponível."
+      },
+      {
+        "letter": "B",
+        "text": "A vegetação desempenha papel essencial na infiltração da água no solo e na manutenção do ciclo hidrológico; sem ela, a água escorre superficialmente e não reabastece os lençóis freáticos."
+      },
+      {
+        "letter": "C",
+        "text": "O desmatamento aumenta a quantidade de chuva."
+      },
+      {
+        "letter": "D",
+        "text": "As árvores não têm relação com o ciclo da água."
+      },
+      {
+        "letter": "E",
+        "text": "A água subterrânea é independente da cobertura vegetal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "As raízes facilitam a infiltração da água no solo. Sem vegetação, a chuva escorre pela superfície (escoamento superficial), causando erosão e enchentes, e a água não chega aos lençóis freáticos. Resultado: rios secam, reservatórios esvaziam, crises hídricas se instalam. A crise de SP (2014-2015) é exemplo."
+  },
+  {
+    "number": 57,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Química: estequiometria",
+    "stem": "Na reação de combustão completa do metano (CH₄ + 2O₂ → CO₂ + 2H₂O), quantos mols de oxigênio são necessários para queimar 3 mols de metano?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2 mols"
+      },
+      {
+        "letter": "B",
+        "text": "3 mols"
+      },
+      {
+        "letter": "C",
+        "text": "6 mols"
+      },
+      {
+        "letter": "D",
+        "text": "9 mols"
+      },
+      {
+        "letter": "E",
+        "text": "12 mols"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A proporção estequiométrica é 1 CH₄ : 2 O₂. Para 3 mols de CH₄, são necessários 3 × 2 = 6 mols de O₂. Dica: sempre parta da equação balanceada e use a regra de três com as proporções molares."
+  },
+  {
+    "number": 58,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Química orgânica",
+    "stem": "A função orgânica presente no etanol (CH₃CH₂OH) é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Aldeído"
+      },
+      {
+        "letter": "B",
+        "text": "Cetona"
+      },
+      {
+        "letter": "C",
+        "text": "Álcool"
+      },
+      {
+        "letter": "D",
+        "text": "Ácido carboxílico"
+      },
+      {
+        "letter": "E",
+        "text": "Éster"
+      }
+    ],
+    "answer": "C",
+    "explanation": "O grupo funcional -OH (hidroxila) ligado a carbono saturado caracteriza um álcool. Aldeído tem -CHO, cetona tem C=O entre carbonos, ácido carboxílico tem -COOH e éster tem -COO-. O etanol é o álcool mais cobrado no ENEM (biocombustível, fermentação, impactos sociais)."
+  },
+  {
+    "number": 59,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Termoquímica",
+    "stem": "Uma reação exotérmica é aquela que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Absorve calor do ambiente."
+      },
+      {
+        "letter": "B",
+        "text": "Libera calor para o ambiente, tendo variação de entalpia (ΔH) negativa."
+      },
+      {
+        "letter": "C",
+        "text": "Não envolve troca de calor."
+      },
+      {
+        "letter": "D",
+        "text": "Sempre ocorre a baixas temperaturas."
+      },
+      {
+        "letter": "E",
+        "text": "Produz apenas gases."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Exotérmica = libera calor (ΔH < 0). Endotérmica = absorve calor (ΔH > 0). Combustão é o exemplo clássico de reação exotérmica. Fotossíntese é endotérmica. Dica: se o ΔH é negativo, os produtos têm menos energia que os reagentes — a diferença foi liberada como calor."
+  },
+  {
+    "number": 60,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Eletroquímica",
+    "stem": "Em uma pilha eletroquímica, o ânodo é o eletrodo onde ocorre:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Redução (ganho de elétrons)."
+      },
+      {
+        "letter": "B",
+        "text": "Oxidação (perda de elétrons)."
+      },
+      {
+        "letter": "C",
+        "text": "Neutralização ácido-base."
+      },
+      {
+        "letter": "D",
+        "text": "Precipitação de sais."
+      },
+      {
+        "letter": "E",
+        "text": "Nenhuma reação."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Macete: Ânodo = Oxidação (ambos começam com vogal). Cátodo = Redução (ambos começam com consoante). No ânodo, o metal perde elétrons (se oxida e se desgasta). No cátodo, os íons ganham elétrons (se reduzem e se depositam)."
+  },
+  {
+    "number": 61,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Soluções",
+    "stem": "Se adicionarmos água a uma solução de sal, a concentração:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Aumenta."
+      },
+      {
+        "letter": "B",
+        "text": "Diminui, pois a quantidade de soluto permanece a mesma em um volume maior de solução."
+      },
+      {
+        "letter": "C",
+        "text": "Permanece igual."
+      },
+      {
+        "letter": "D",
+        "text": "Depende da temperatura."
+      },
+      {
+        "letter": "E",
+        "text": "Dobra."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Diluição: C₁V₁ = C₂V₂. Se o volume aumenta e a massa de soluto não muda, a concentração diminui. É como colocar mais água no suco — o gosto fica mais fraco porque há menos soluto por litro de solução."
+  },
+  {
+    "number": 62,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Mecânica: leis de Newton",
+    "stem": "Um livro em repouso sobre uma mesa sofre a ação da gravidade (peso) e da força normal da mesa. Essas forças:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Formam um par ação-reação (3ª Lei de Newton)."
+      },
+      {
+        "letter": "B",
+        "text": "Se anulam, resultando em equilíbrio (1ª Lei de Newton), mas NÃO são par ação-reação."
+      },
+      {
+        "letter": "C",
+        "text": "Têm direções diferentes."
+      },
+      {
+        "letter": "D",
+        "text": "Agem sobre corpos diferentes."
+      },
+      {
+        "letter": "E",
+        "text": "Não obedecem às leis de Newton."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Erro clássico: peso e normal NÃO são par ação-reação (agem no mesmo corpo). O par ação-reação do peso seria a força que o livro exerce sobre a Terra (mesma intensidade, sentido oposto, em corpos diferentes). Peso e normal se equilibram (1ª Lei), mas são forças de natureza diferente."
+  },
+  {
+    "number": 63,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Eletricidade: potência",
+    "stem": "Uma lâmpada de 100 W ligada durante 5 horas consome quantos kWh de energia?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "500 kWh"
+      },
+      {
+        "letter": "B",
+        "text": "0,5 kWh"
+      },
+      {
+        "letter": "C",
+        "text": "50 kWh"
+      },
+      {
+        "letter": "D",
+        "text": "5 kWh"
+      },
+      {
+        "letter": "E",
+        "text": "0,05 kWh"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Energia = Potência × Tempo. E = 100 W × 5 h = 500 Wh = 0,5 kWh. Lembre-se: na conta de luz, a unidade é kWh (quilowatt-hora). Para converter Wh em kWh, divida por 1000. Questão clássica do ENEM — costuma vir com a conta de luz real."
+  },
+  {
+    "number": 64,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Ondulatória",
+    "stem": "O fenômeno pelo qual o som “contorna” obstáculos e pode ser ouvido atrás de paredes é chamado de:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Reflexão."
+      },
+      {
+        "letter": "B",
+        "text": "Refração."
+      },
+      {
+        "letter": "C",
+        "text": "Difração."
+      },
+      {
+        "letter": "D",
+        "text": "Interferência."
+      },
+      {
+        "letter": "E",
+        "text": "Ressonância."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Difração é a capacidade de uma onda de contornar obstáculos ou passar por fendas. O som tem comprimento de onda grande (comparável ao tamanho de portas e paredes), então difrata facilmente. Luz tem comprimento de onda muito pequeno, então difrata pouco — por isso vemos sombras."
+  },
+  {
+    "number": 65,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Óptica",
+    "stem": "Uma colher dentro de um copo d’água parece “quebrada” na interface ar-água. Esse fenômeno é explicado pela:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Reflexão total da luz."
+      },
+      {
+        "letter": "B",
+        "text": "Refração da luz — a mudança de velocidade da luz ao passar de um meio para outro altera sua direção."
+      },
+      {
+        "letter": "C",
+        "text": "Difração da luz."
+      },
+      {
+        "letter": "D",
+        "text": "Dispersão da luz."
+      },
+      {
+        "letter": "E",
+        "text": "Absorção da luz pela água."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Refração: a luz muda de velocidade ao passar de um meio para outro (ar → água) e, se incidir obliquamente, muda de direção. Nosso cérebro interpreta a luz como se viajasse em linha reta, então a colher parece deslocada/quebrada."
+  },
+  {
+    "number": 66,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Calorimetria",
+    "stem": "Dois corpos a temperaturas diferentes são colocados em contato dentro de um sistema isolado. O equilíbrio térmico é atingido quando:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "O corpo mais frio atinge a temperatura do mais quente."
+      },
+      {
+        "letter": "B",
+        "text": "Ambos atingem uma temperatura intermediária, pois o calor flui do mais quente para o mais frio até as temperaturas se igualarem."
+      },
+      {
+        "letter": "C",
+        "text": "O corpo mais quente esfria até 0°C."
+      },
+      {
+        "letter": "D",
+        "text": "Ambos atingem 100°C."
+      },
+      {
+        "letter": "E",
+        "text": "A temperatura de ambos aumenta."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Calor flui espontaneamente do corpo mais quente para o mais frio (2ª Lei da Termodinâmica). O processo continua até que as temperaturas se igualem. No sistema isolado: Q(cedido) + Q(recebido) = 0, ou seja, m₁c₁ΔT₁ + m₂c₂ΔT₂ = 0."
+  },
+  {
+    "number": 67,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Biologia molecular: DNA",
+    "stem": "O DNA contém as instruções genéticas porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "É formado por proteínas que executam funções celulares."
+      },
+      {
+        "letter": "B",
+        "text": "Sua sequência de bases nitrogenadas (A, T, C, G) codifica a informação necessária para a síntese de proteínas."
+      },
+      {
+        "letter": "C",
+        "text": "É idêntico em todos os organismos vivos."
+      },
+      {
+        "letter": "D",
+        "text": "Está presente apenas no núcleo de células animais."
+      },
+      {
+        "letter": "E",
+        "text": "Muda a cada geração sem qualquer transmissão hereditária."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A ordem das bases A (adenina), T (timina), C (citosina) e G (guanina) forma o “código” genético. Cada trinca de bases (códon) codifica um aminoácido. A sequência de aminoácidos forma uma proteína. DNA → RNA (transcrição) → Proteína (tradução). É o “dogma central” da biologia molecular."
+  },
+  {
+    "number": 68,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Microbiologia",
+    "stem": "Antibióticos não funcionam contra gripes e resfriados porque:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Gripes são causadas por bactérias resistentes."
+      },
+      {
+        "letter": "B",
+        "text": "Gripes e resfriados são causados por vírus, e antibióticos só agem contra bactérias."
+      },
+      {
+        "letter": "C",
+        "text": "Os antibióticos perderam a validade."
+      },
+      {
+        "letter": "D",
+        "text": "O sistema imunológico bloqueia o efeito do antibiótico."
+      },
+      {
+        "letter": "E",
+        "text": "Gripes não são doenças infecciosas."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Antibióticos atacam estruturas de bactérias (parede celular, ribossomo, etc.). Vírus não têm essas estruturas — são parasitas intracelulares que usam a maquinaria da célula hospedeira. Usar antibiótico contra vírus não resolve e ainda contribui para a resistência bacteriana."
+  },
+  {
+    "number": 69,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Química ambiental",
+    "stem": "A chuva ácida é formada principalmente pela reação de:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Oxigênio com nitrogênio na atmosfera limpa."
+      },
+      {
+        "letter": "B",
+        "text": "Óxidos de enxofre (SO₂, SO₃) e óxidos de nitrogênio (NO, NO₂), emitidos pela queima de combustíveis fósseis, com a água da chuva."
+      },
+      {
+        "letter": "C",
+        "text": "Gás carbônico com metano."
+      },
+      {
+        "letter": "D",
+        "text": "Ozônio com vapor d’água."
+      },
+      {
+        "letter": "E",
+        "text": "Cloro com hidrogênio."
+      }
+    ],
+    "answer": "B",
+    "explanation": "SO₂ + H₂O → H₂SO₃ (ácido sulfuroso); SO₃ + H₂O → H₂SO₄ (ácido sulfúrico). NO₂ + H₂O → HNO₃ (ácido nítrico). A chuva ácida corrói monumentos, acidifica lagos e solos, e prejudica a vegetação. Fontes: indústrias e veículos a combustível fóssil."
+  },
+  {
+    "number": 70,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Física: energia",
+    "stem": "Uma pessoa sobe uma escada de 3 metros de altura em 10 segundos. Se sua massa é de 60 kg e g = 10 m/s², a potência desenvolvida é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1800 W"
+      },
+      {
+        "letter": "B",
+        "text": "180 W"
+      },
+      {
+        "letter": "C",
+        "text": "18 W"
+      },
+      {
+        "letter": "D",
+        "text": "6000 W"
+      },
+      {
+        "letter": "E",
+        "text": "600 W"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Trabalho = Peso × Altura = m × g × h = 60 × 10 × 3 = 1800 J. Potência = Trabalho / Tempo = 1800 / 10 = 180 W. Dica: potência é a “velocidade” com que a energia é gasta ou produzida."
+  },
+  {
+    "number": 71,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Equilíbrio químico",
+    "stem": "Segundo o Princípio de Le Chatelier, se aumentarmos a concentração de um reagente em um sistema em equilíbrio, o sistema:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Não sofre alteração."
+      },
+      {
+        "letter": "B",
+        "text": "Se desloca no sentido dos produtos para consumir o excesso de reagente e restabelecer o equilíbrio."
+      },
+      {
+        "letter": "C",
+        "text": "Se desloca no sentido dos reagentes."
+      },
+      {
+        "letter": "D",
+        "text": "Para completamente."
+      },
+      {
+        "letter": "E",
+        "text": "Atinge um novo equilíbrio com menor concentração de produtos."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Le Chatelier: se um sistema em equilíbrio é perturbado, ele se desloca no sentido que minimiza a perturbação. Mais reagente → sistema “tenta consumir” o excesso → desloca para os produtos. Funciona também para temperatura e pressão."
+  },
+  {
+    "number": 72,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Hidrostática",
+    "stem": "Um objeto flutua na água quando:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Sua densidade é maior que a da água."
+      },
+      {
+        "letter": "B",
+        "text": "Sua densidade é menor ou igual à da água, pois o empuxo (força para cima) iguala ou supera o peso."
+      },
+      {
+        "letter": "C",
+        "text": "Está em qualquer temperatura."
+      },
+      {
+        "letter": "D",
+        "text": "Tem formato esférico."
+      },
+      {
+        "letter": "E",
+        "text": "É feito de metal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Princípio de Arquimedes: todo corpo imerso recebe uma força de baixo para cima (empuxo) igual ao peso do fluido deslocado. Se o empuxo ≥ peso, o objeto flutua. Isso depende da densidade: objeto menos denso que a água → flutua. É por isso que gelo flutua (d\\_gelo = 0,9 g/cm³ < d\\_água = 1 g/cm³)."
+  },
+  {
+    "number": 73,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Evolução: evidências",
+    "stem": "Estruturas homólogas (como o braço humano e a asa do morcego) indicam:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Que os organismos têm a mesma função para essas estruturas."
+      },
+      {
+        "letter": "B",
+        "text": "Que os organismos compartilham um ancestral comum, e as estruturas se modificaram ao longo do tempo por adaptação a ambientes diferentes."
+      },
+      {
+        "letter": "C",
+        "text": "Que os organismos evoluíram independentemente."
+      },
+      {
+        "letter": "D",
+        "text": "Que não há relação evolutiva entre eles."
+      },
+      {
+        "letter": "E",
+        "text": "Que são da mesma espécie."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Homologia = mesma origem embrionária, funções diferentes. O braço humano, a asa do morcego, a nadadeira da baleia e a pata do cavalo têm os mesmos ossos (úmero, rádio, ulna), adaptados a funções diferentes. Isso evidencia ancestral comum. Diferente de analogia (função igual, origem diferente — como a asa do inseto e a asa da ave)."
+  },
+  {
+    "number": 74,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Química: ligações",
+    "stem": "A água (H₂O) é uma molécula polar com ligações covalentes. Sua polaridade explica por que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A água não dissolve nenhum material."
+      },
+      {
+        "letter": "B",
+        "text": "A água é um excelente solvente de substâncias iônicas e polares (“solvente universal”)."
+      },
+      {
+        "letter": "C",
+        "text": "A água ferve a 0°C."
+      },
+      {
+        "letter": "D",
+        "text": "A água é um sólido à temperatura ambiente."
+      },
+      {
+        "letter": "E",
+        "text": "A água não conduz eletricidade em nenhuma circunstância."
+      }
+    ],
+    "answer": "B",
+    "explanation": "“Semelhante dissolve semelhante”: a água (polar) dissolve substâncias polares e iônicas. O sal de cozinha (NaCl, iônico) se dissolve em água porque as moléculas polares de H₂O cercam e separam os íons Na⁺ e Cl⁻. Substâncias apolares (como óleo) não se dissolvem em água."
+  },
+  {
+    "number": 75,
+    "areaId": 3,
+    "area": "CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS",
+    "areaShort": "Ciências da Natureza",
+    "theme": "Física moderna",
+    "stem": "O efeito fotoelétrico, explicado por Einstein em 1905, demonstrou que:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "A luz é apenas uma onda."
+      },
+      {
+        "letter": "B",
+        "text": "A luz também se comporta como partícula (fóton), e sua energia depende da frequência, não da intensidade."
+      },
+      {
+        "letter": "C",
+        "text": "A luz não interage com a matéria."
+      },
+      {
+        "letter": "D",
+        "text": "Todos os metais emitem luz quando aquecidos."
+      },
+      {
+        "letter": "E",
+        "text": "A velocidade da luz varia conforme o observador."
+      }
+    ],
+    "answer": "B",
+    "explanation": "No efeito fotoelétrico, a luz arranca elétrons de uma superfície metálica. Einstein mostrou que isso só ocorre se a frequência da luz for alta o suficiente (E = hf) — não basta aumentar a intensidade (mais fótons) se a frequência for baixa. Isso provou a natureza corpuscular (partícula) da luz e rendeu o Nobel de 1921.\n\n## ÁREA 4 — MATEMÁTICA E SUAS TECNOLOGIAS (Questões 76–100)"
+  },
+  {
+    "number": 76,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Porcentagem",
+    "stem": "Um produto custa R$ 200 e recebeu um desconto de 15%. O preço com desconto é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 185"
+      },
+      {
+        "letter": "B",
+        "text": "R$ 170"
+      },
+      {
+        "letter": "C",
+        "text": "R$ 175"
+      },
+      {
+        "letter": "D",
+        "text": "R$ 160"
+      },
+      {
+        "letter": "E",
+        "text": "R$ 180"
+      }
+    ],
+    "answer": "B",
+    "explanation": "15% de 200 = 0,15 × 200 = 30. Preço final: 200 - 30 = 170. Atalho: se o desconto é 15%, você paga 85% do valor. 0,85 × 200 = 170. Esse atalho (multiplicar pelo fator) é mais rápido e evita erros no ENEM."
+  },
+  {
+    "number": 77,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Juros compostos",
+    "stem": "Um capital de R$ 1.000 é aplicado a juros compostos de 10% ao mês durante 2 meses. O montante final é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 1.200"
+      },
+      {
+        "letter": "B",
+        "text": "R$ 1.210"
+      },
+      {
+        "letter": "C",
+        "text": "R$ 1.100"
+      },
+      {
+        "letter": "D",
+        "text": "R$ 1.220"
+      },
+      {
+        "letter": "E",
+        "text": "R$ 1.201"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Juros compostos: M = C × (1 + i)ⁿ. M = 1000 × (1,1)² = 1000 × 1,21 = 1210. Nos juros compostos, os juros incidem sobre o montante acumulado (juros sobre juros). Nos juros simples, seria 1000 + (1000 × 0,1 × 2) = 1200. A diferença (R$ 10) é o “juros sobre juros”."
+  },
+  {
+    "number": 78,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Regra de três",
+    "stem": "Se 5 operários constroem um muro em 12 dias, quantos dias levarão 10 operários para construir o mesmo muro?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "24 dias"
+      },
+      {
+        "letter": "B",
+        "text": "6 dias"
+      },
+      {
+        "letter": "C",
+        "text": "10 dias"
+      },
+      {
+        "letter": "D",
+        "text": "8 dias"
+      },
+      {
+        "letter": "E",
+        "text": "15 dias"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Grandezas inversamente proporcionais (mais operários → menos dias). 5 × 12 = 10 × x → x = 60/10 = 6 dias. Dica: identifique se é direta ou inversa. Se uma grandeza aumenta e a outra diminui, é inversa. Multiplique em cruz."
+  },
+  {
+    "number": 79,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Função do 1º grau",
+    "stem": "O custo mensal de um serviço de streaming é dado por C(x) = 30 + 5x, onde x é o número de telas extras. Para 4 telas extras, o custo é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 35"
+      },
+      {
+        "letter": "B",
+        "text": "R$ 50"
+      },
+      {
+        "letter": "C",
+        "text": "R$ 45"
+      },
+      {
+        "letter": "D",
+        "text": "R$ 55"
+      },
+      {
+        "letter": "E",
+        "text": "R$ 40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "C(4) = 30 + 5 × 4 = 30 + 20 = 50. Função do 1º grau: f(x) = ax + b. O “30” é o custo fixo (assinatura base), e o “5x” é o custo variável (R$ 5 por tela extra). No gráfico, é uma reta com inclinação 5 e intercepto 30."
+  },
+  {
+    "number": 80,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Função do 2º grau",
+    "stem": "Uma bola é lançada para cima e sua altura (em metros) em função do tempo (em segundos) é h(t) = -5t² + 20t. A altura máxima atingida é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "10 m"
+      },
+      {
+        "letter": "B",
+        "text": "20 m"
+      },
+      {
+        "letter": "C",
+        "text": "15 m"
+      },
+      {
+        "letter": "D",
+        "text": "25 m"
+      },
+      {
+        "letter": "E",
+        "text": "40 m"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Altura máxima → vértice da parábola. t\\_v = -b/2a = -20/(2×(-5)) = 2s. h(2) = -5(4) + 20(2) = -20 + 40 = 20 m. Ou pela fórmula: y\\_v = -Δ/4a = -(400-0)/4(-5) = -400/(-20) = 20 m. A parábola abre para baixo (a < 0), então o vértice é ponto máximo."
+  },
+  {
+    "number": 81,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Função exponencial",
+    "stem": "Uma população de bactérias dobra a cada hora. Se inicialmente há 100 bactérias, quantas haverá após 5 horas?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "500"
+      },
+      {
+        "letter": "B",
+        "text": "3200"
+      },
+      {
+        "letter": "C",
+        "text": "1000"
+      },
+      {
+        "letter": "D",
+        "text": "6400"
+      },
+      {
+        "letter": "E",
+        "text": "1600"
+      }
+    ],
+    "answer": "B",
+    "explanation": "N(t) = 100 × 2ᵗ. N(5) = 100 × 2⁵ = 100 × 32 = 3200. Crescimento exponencial: a cada intervalo de tempo, a quantidade multiplica por um fator constante (neste caso, 2). Dica: faça potências de 2 de cabeça: 2¹=2, 2²=4, 2³=8, 2⁴=16, 2⁵=32."
+  },
+  {
+    "number": 82,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Estatística: média",
+    "stem": "As notas de um aluno em 5 provas foram: 6, 7, 8, 5 e 9. A média aritmética é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "6,5"
+      },
+      {
+        "letter": "B",
+        "text": "7"
+      },
+      {
+        "letter": "C",
+        "text": "7,5"
+      },
+      {
+        "letter": "D",
+        "text": "8"
+      },
+      {
+        "letter": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Média = soma / quantidade = (6+7+8+5+9) / 5 = 35 / 5 = 7. Dica: se os valores estão próximos, estime mentalmente. A média sempre fica entre o menor e o maior valor."
+  },
+  {
+    "number": 83,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Estatística: mediana",
+    "stem": "No conjunto {3, 7, 8, 12, 15}, a mediana é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "7"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "9"
+      },
+      {
+        "letter": "D",
+        "text": "12"
+      },
+      {
+        "letter": "E",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Mediana é o valor central quando os dados estão em ordem. São 5 valores → o central é o 3º: 8. Se fossem 6 valores, a mediana seria a média dos dois centrais. Dica: mediana é mais resistente a valores extremos que a média — por isso é usada em dados de renda."
+  },
+  {
+    "number": 84,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Probabilidade",
+    "stem": "Um dado honesto é lançado uma vez. A probabilidade de obter um número par é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1/6"
+      },
+      {
+        "letter": "B",
+        "text": "1/2"
+      },
+      {
+        "letter": "C",
+        "text": "1/3"
+      },
+      {
+        "letter": "D",
+        "text": "2/3"
+      },
+      {
+        "letter": "E",
+        "text": "1/4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Pares: {2, 4, 6} = 3 resultados favoráveis. Total: {1, 2, 3, 4, 5, 6} = 6 resultados possíveis. P = 3/6 = 1/2. Probabilidade = favoráveis / possíveis. Dica: sempre conte o espaço amostral primeiro."
+  },
+  {
+    "number": 85,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Geometria plana: área do triângulo",
+    "stem": "Um triângulo tem base de 10 cm e altura de 6 cm. Sua área é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "60 cm²"
+      },
+      {
+        "letter": "B",
+        "text": "30 cm²"
+      },
+      {
+        "letter": "C",
+        "text": "16 cm²"
+      },
+      {
+        "letter": "D",
+        "text": "36 cm²"
+      },
+      {
+        "letter": "E",
+        "text": "15 cm²"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Área do triângulo = (base × altura) / 2 = (10 × 6) / 2 = 30 cm². Funciona para qualquer triângulo, desde que a altura seja perpendicular à base escolhida. É metade do retângulo que o contém."
+  },
+  {
+    "number": 86,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Geometria plana: área do círculo",
+    "stem": "Um círculo tem raio de 5 cm. Usando π = 3, sua área aproximada é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "15 cm²"
+      },
+      {
+        "letter": "B",
+        "text": "75 cm²"
+      },
+      {
+        "letter": "C",
+        "text": "30 cm²"
+      },
+      {
+        "letter": "D",
+        "text": "150 cm²"
+      },
+      {
+        "letter": "E",
+        "text": "25 cm²"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Área = π × r² = 3 × 5² = 3 × 25 = 75 cm². Dica: o ENEM frequentemente usa π = 3 para simplificar contas. Não confunda área (πr²) com perímetro/circunferência (2πr)."
+  },
+  {
+    "number": 87,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Geometria espacial: volume do cilindro",
+    "stem": "Um cilindro tem raio de 3 cm e altura de 10 cm. Usando π = 3, seu volume é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "90 cm³"
+      },
+      {
+        "letter": "B",
+        "text": "270 cm³"
+      },
+      {
+        "letter": "C",
+        "text": "30 cm³"
+      },
+      {
+        "letter": "D",
+        "text": "900 cm³"
+      },
+      {
+        "letter": "E",
+        "text": "180 cm³"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Volume do cilindro = π × r² × h = 3 × 9 × 10 = 270 cm³. Pense no cilindro como “uma pilha de círculos”: a área da base (πr²) multiplicada pela altura. Dica: volume de cone = 1/3 do cilindro, e volume da esfera = 4/3 πr³."
+  },
+  {
+    "number": 88,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Geometria espacial: volume da esfera",
+    "stem": "Uma bola tem raio de 3 cm. Usando π = 3, seu volume é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "27 cm³"
+      },
+      {
+        "letter": "B",
+        "text": "108 cm³"
+      },
+      {
+        "letter": "C",
+        "text": "36 cm³"
+      },
+      {
+        "letter": "D",
+        "text": "81 cm³"
+      },
+      {
+        "letter": "E",
+        "text": "113 cm³"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Volume da esfera = (4/3) × π × r³ = (4/3) × 3 × 27 = 4 × 27 / 1 = … Vamos com calma: (4/3) × 3 = 4. Então 4 × 27 = 108 cm³. Dica: o “×3” do π simplifica com o “/3” da fórmula — isso acontece sempre quando π = 3."
+  },
+  {
+    "number": 89,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Análise combinatória",
+    "stem": "De quantas formas diferentes 4 pessoas podem se sentar em 4 cadeiras numeradas?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "16"
+      },
+      {
+        "letter": "B",
+        "text": "24"
+      },
+      {
+        "letter": "C",
+        "text": "12"
+      },
+      {
+        "letter": "D",
+        "text": "8"
+      },
+      {
+        "letter": "E",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Permutação simples: P(4) = 4! = 4 × 3 × 2 × 1 = 24. A primeira cadeira tem 4 opções, a segunda tem 3, a terceira tem 2 e a última tem 1. Dica: permutação é a contagem quando a ordem importa e todos os elementos são usados."
+  },
+  {
+    "number": 90,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Conversão de unidades",
+    "stem": "Uma caixa d’água tem capacidade de 2 m³. Isso equivale a:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "200 litros"
+      },
+      {
+        "letter": "B",
+        "text": "2.000 litros"
+      },
+      {
+        "letter": "C",
+        "text": "20 litros"
+      },
+      {
+        "letter": "D",
+        "text": "20.000 litros"
+      },
+      {
+        "letter": "E",
+        "text": "2 litros"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1 m³ = 1.000 litros. Portanto, 2 m³ = 2.000 litros. Conversão essencial: 1 dm³ = 1 litro, e 1 m³ = 1.000 dm³ = 1.000 litros. Dica: ml = cm³, litro = dm³, 1.000 litros = m³."
+  },
+  {
+    "number": 91,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Progressão aritmética",
+    "stem": "Na PA (3, 7, 11, 15, …), o 20º termo é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "75"
+      },
+      {
+        "letter": "B",
+        "text": "79"
+      },
+      {
+        "letter": "C",
+        "text": "83"
+      },
+      {
+        "letter": "D",
+        "text": "77"
+      },
+      {
+        "letter": "E",
+        "text": "81"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Razão r = 7 - 3 = 4. Fórmula do termo geral: aₙ = a₁ + (n-1)r. a₂₀ = 3 + (20-1) × 4 = 3 + 76 = 79. Dica: PA é quando a diferença entre termos consecutivos é constante."
+  },
+  {
+    "number": 92,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Trigonometria",
+    "stem": "Em um triângulo retângulo, o cateto oposto mede 3 e a hipotenusa mede 5. O seno do ângulo é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "3/4"
+      },
+      {
+        "letter": "B",
+        "text": "3/5"
+      },
+      {
+        "letter": "C",
+        "text": "4/5"
+      },
+      {
+        "letter": "D",
+        "text": "5/3"
+      },
+      {
+        "letter": "E",
+        "text": "4/3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Seno = cateto oposto / hipotenusa = 3/5. Macete SOH-CAH-TOA: Seno = Oposto/Hipotenusa, Cosseno = Adjacente/Hipotenusa, Tangente = Oposto/Adjacente. Neste triângulo (3-4-5, pitagórico), o cateto adjacente é 4."
+  },
+  {
+    "number": 93,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Leitura de gráficos",
+    "stem": "Um gráfico de barras mostra o consumo de energia elétrica (em kWh) de uma residência ao longo de 4 meses: janeiro (300), fevereiro (250), março (200), abril (350). O mês de maior consumo foi:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Janeiro"
+      },
+      {
+        "letter": "B",
+        "text": "Abril"
+      },
+      {
+        "letter": "C",
+        "text": "Fevereiro"
+      },
+      {
+        "letter": "D",
+        "text": "Março"
+      },
+      {
+        "letter": "E",
+        "text": "Todos iguais"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Basta ler a barra mais alta: abril (350 kWh). Parece simples, mas o ENEM testa atenção: gráficos reais têm escalas, legendas e variáveis que exigem leitura cuidadosa. Dica: sempre leia o título, os eixos e a legenda antes de responder."
+  },
+  {
+    "number": 94,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Porcentagem: aumento",
+    "stem": "O salário de um trabalhador era R$ 2.000 e recebeu um aumento de 8%. O novo salário é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 2.080"
+      },
+      {
+        "letter": "B",
+        "text": "R$ 2.160"
+      },
+      {
+        "letter": "C",
+        "text": "R$ 2.016"
+      },
+      {
+        "letter": "D",
+        "text": "R$ 2.800"
+      },
+      {
+        "letter": "E",
+        "text": "R$ 2.008"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Opa — vamos calcular: 8% de 2000 = 160. Novo salário: 2000 + 160 = 2160. Ou diretamente: 2000 × 1,08 = 2160. Dica: aumento de x% → multiplica por (1 + x/100). Desconto de x% → multiplica por (1 - x/100)."
+  },
+  {
+    "number": 95,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Escala",
+    "stem": "Em um mapa com escala 1:100.000, uma distância de 5 cm no mapa corresponde a quantos km na realidade?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "50 km"
+      },
+      {
+        "letter": "B",
+        "text": "5 km"
+      },
+      {
+        "letter": "C",
+        "text": "500 km"
+      },
+      {
+        "letter": "D",
+        "text": "0,5 km"
+      },
+      {
+        "letter": "E",
+        "text": "500 m"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Escala 1:100.000 significa que 1 cm no mapa = 100.000 cm na realidade. 5 cm × 100.000 = 500.000 cm = 5.000 m = 5 km. Dica: converta sempre para a mesma unidade e lembre que 1 km = 100.000 cm."
+  },
+  {
+    "number": 96,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Geometria analítica",
+    "stem": "A distância entre os pontos A(1, 2) e B(4, 6) é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "7"
+      },
+      {
+        "letter": "B",
+        "text": "5"
+      },
+      {
+        "letter": "C",
+        "text": "4"
+      },
+      {
+        "letter": "D",
+        "text": "3"
+      },
+      {
+        "letter": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "d = √[(x₂-x₁)² + (y₂-y₁)²] = √[(4-1)² + (6-2)²] = √[9 + 16] = √25 = 5. Dica: reconheça ternas pitagóricas: 3-4-5, 5-12-13, 8-15-17. Se os catetos forem 3 e 4, a distância é 5 — sem precisar da calculadora."
+  },
+  {
+    "number": 97,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Semelhança de triângulos",
+    "stem": "Dois triângulos semelhantes têm lados proporcionais. Se os lados de um medem 3, 4 e 5 cm, e o menor lado do outro mede 6 cm, o maior lado do segundo triângulo mede:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "8 cm"
+      },
+      {
+        "letter": "B",
+        "text": "10 cm"
+      },
+      {
+        "letter": "C",
+        "text": "12 cm"
+      },
+      {
+        "letter": "D",
+        "text": "15 cm"
+      },
+      {
+        "letter": "E",
+        "text": "9 cm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Razão de semelhança: 6/3 = 2. Todos os lados do segundo triângulo são o dobro: 6, 8, 10 cm. Maior lado = 10 cm. Dica: em triângulos semelhantes, os ângulos são iguais e os lados são proporcionais. A razão é constante."
+  },
+  {
+    "number": 98,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Probabilidade condicional",
+    "stem": "Uma urna contém 3 bolas vermelhas e 2 azuis. Se uma bola é retirada e NÃO é devolvida, qual a probabilidade de retirar duas vermelhas seguidas?",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "9/25"
+      },
+      {
+        "letter": "B",
+        "text": "6/20 = 3/10"
+      },
+      {
+        "letter": "C",
+        "text": "3/5"
+      },
+      {
+        "letter": "D",
+        "text": "1/5"
+      },
+      {
+        "letter": "E",
+        "text": "9/20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1ª retirada (vermelha): 3/5. 2ª retirada (vermelha, sem reposição): 2/4 = 1/2. P(VV) = 3/5 × 1/2 = 3/10. Sem reposição, o espaço amostral muda a cada retirada. Com reposição, seria 3/5 × 3/5 = 9/25."
+  },
+  {
+    "number": 99,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Função logarítmica",
+    "stem": "Se log₁₀(x) = 3, então x é igual a:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "30"
+      },
+      {
+        "letter": "B",
+        "text": "1000"
+      },
+      {
+        "letter": "C",
+        "text": "300"
+      },
+      {
+        "letter": "D",
+        "text": "10"
+      },
+      {
+        "letter": "E",
+        "text": "3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "log₁₀(x) = 3 significa 10³ = x, portanto x = 1000. Logaritmo é o “expoente”: log\\_b(x) = y ↔︎ bʸ = x. Dica: log₁₀(10) = 1, log₁₀(100) = 2, log₁₀(1000) = 3. A cada zero, o log aumenta em 1."
+  },
+  {
+    "number": 100,
+    "areaId": 4,
+    "area": "MATEMÁTICA E SUAS TECNOLOGIAS",
+    "areaShort": "Matemática",
+    "theme": "Análise de dados em contexto",
+    "stem": "Uma pesquisa mostra que 40% dos brasileiros praticam atividade física regularmente. Em uma cidade de 50.000 habitantes, o número esperado de praticantes é:",
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "40.000"
+      },
+      {
+        "letter": "B",
+        "text": "20.000"
+      },
+      {
+        "letter": "C",
+        "text": "2.000"
+      },
+      {
+        "letter": "D",
+        "text": "5.000"
+      },
+      {
+        "letter": "E",
+        "text": "25.000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "40% de 50.000 = 0,40 × 50.000 = 20.000. O ENEM adora contextualizar porcentagem com dados reais (pesquisas, indicadores sociais, consumo). A conta é simples, mas o enunciado pode ser longo — leia com calma e identifique os números relevantes antes de calcular."
+  }
+]
