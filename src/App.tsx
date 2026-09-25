@@ -7,9 +7,11 @@ import { ProgressHeader } from './components/ProgressHeader'
 import { QuestionView } from './components/QuestionView'
 import { FinalResult } from './components/FinalResult'
 import { ReviewMode } from './components/ReviewMode'
+import { LeadCapture, type LeadData } from './components/LeadCapture'
 
 const questions = rawQuestions as Question[]
 const STORAGE_KEY = 'preparadao-enem-progress-v1'
+const LEAD_STORAGE_KEY = 'preparadao-enem-lead-v2'
 
 type SavedProgress = {
   answers: Record<number, AnswerRecord>
@@ -31,6 +33,17 @@ function readProgress(): SavedProgress {
   }
 }
 
+function hasSavedLead() {
+  if (typeof window === 'undefined') return false
+
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(LEAD_STORAGE_KEY) ?? '') as Partial<LeadData>
+    return Boolean(saved.name && saved.age && saved.objective && saved.email && saved.phone)
+  } catch {
+    return false
+  }
+}
+
 function App() {
   const [initialProgress] = useState(readProgress)
   const [screen, setScreen] = useState<Screen>('home')
@@ -39,6 +52,8 @@ function App() {
   const [selected, setSelected] = useState<string | null>(initialAnswer?.selected ?? null)
   const [submitted, setSubmitted] = useState(Boolean(initialAnswer))
   const [answers, setAnswers] = useState<Record<number, AnswerRecord>>(initialProgress.answers)
+  const [leadCaptured, setLeadCaptured] = useState(hasSavedLead)
+  const [leadDestination, setLeadDestination] = useState(initialProgress.currentIndex)
   const current = questions[currentIndex]
 
   useEffect(() => {
@@ -84,16 +99,36 @@ function App() {
     setScreen('quiz')
   }
 
+  function requestQuestionAccess(index: number) {
+    if (leadCaptured) {
+      goToQuestion(index)
+      return
+    }
+
+    setLeadDestination(index)
+    setScreen('lead')
+  }
+
   function continueFromHome() {
-    goToQuestion(currentIndex)
+    requestQuestionAccess(currentIndex)
   }
 
   function browseQuestions() {
-    goToQuestion(0)
+    requestQuestionAccess(0)
   }
 
   function goHome() {
     setScreen('home')
+  }
+
+  function completeLeadCapture(lead: LeadData) {
+    window.localStorage.setItem(LEAD_STORAGE_KEY, JSON.stringify({
+      ...lead,
+      version: 1,
+      capturedAt: new Date().toISOString(),
+    }))
+    setLeadCaptured(true)
+    goToQuestion(leadDestination)
   }
 
   function submitAnswer() {
@@ -152,6 +187,10 @@ function App() {
         />
       </div>
     )
+  }
+
+  if (screen === 'lead') {
+    return <LeadCapture onComplete={completeLeadCapture} onBack={goHome} />
   }
 
   if (screen === 'review') {

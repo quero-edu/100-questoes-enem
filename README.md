@@ -26,3 +26,9 @@ npm run data:generate
 ```
 
 Não edite o JSON manualmente; atualize somente o Markdown-fonte e gere os dados novamente.
+
+## Analytics (Montilla)
+
+O SDK do Montilla é carregado pelo snippet oficial do CDN (v6) no `<head>` do `index.html`, com o client **Design Pages**. A configuração de tracking (autoTrack de cliques, formulários, impressões e page views) fica no admin do Montilla, não no código.
+
+O formulário de captura de lead (`src/components/LeadCapture.tsx`) é registrado pelo autoTrack como evento `submit`, com os campos em `data_*` e identificado por `form_id: lead-form` e `data-montilla-form-type: lead`. O evento só dispara com o formulário válido.

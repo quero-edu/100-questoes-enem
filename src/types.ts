@@ -17,4 +17,4 @@ export type AnswerRecord = {
   correct: boolean
 }
 
-export type Screen = 'home' | 'quiz' | 'result' | 'review'
+export type Screen = 'home' | 'lead' | 'quiz' | 'result' | 'review'
