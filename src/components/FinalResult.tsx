@@ -117,15 +117,15 @@ export function FinalResult({
           <h3>Acompanhe a Quero Bolsa e o Preparadão nas redes sociais</h3>
           <div className="result__social-links">
             <a href={links.instagram} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar o Preparadão no Instagram em uma nova aba">
-              <img src="/brand/social/instagram.svg" alt="" aria-hidden="true" />
+              <img src={`${import.meta.env.BASE_URL}brand/social/instagram.svg`} alt="" aria-hidden="true" />
               <span>Instagram</span>
             </a>
             <a href={links.tiktok} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar a Quero Bolsa no TikTok em uma nova aba">
-              <img src="/brand/social/tiktok.svg" alt="" aria-hidden="true" />
+              <img src={`${import.meta.env.BASE_URL}brand/social/tiktok.svg`} alt="" aria-hidden="true" />
               <span>TikTok</span>
             </a>
             <a href={links.youtube} target="_blank" rel="noopener noreferrer" aria-label="Acompanhar a Quero Bolsa no YouTube em uma nova aba">
-              <img src="/brand/social/youtube.svg" alt="" aria-hidden="true" />
+              <img src={`${import.meta.env.BASE_URL}brand/social/youtube.svg`} alt="" aria-hidden="true" />
               <span>YouTube</span>
             </a>
           </div>

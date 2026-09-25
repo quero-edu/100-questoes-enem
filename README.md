@@ -17,6 +17,10 @@ npm run build
 
 O resultado é gerado em `dist/` e pode ser publicado em serviços como Vercel.
 
+## Publicação em querobolsa.com.br/100-questoes-do-enem
+
+A página é servida em `querobolsa.com.br/100-questoes-do-enem` pelo worker `reverse-proxy` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o deploy do Vercel. Por isso o bundle usa `base: '/__100-questoes-do-enem/'` (`vite.config.ts`), seguindo a convenção de namespacing de assets daquele repositório, e arquivos de `public/` devem ser referenciados com `import.meta.env.BASE_URL`. O `vercel.json` reescreve esse prefixo para que o domínio do Vercel continue funcionando direto.
+
 ## Conteúdo
 
 O arquivo-fonte original está em `content/100-questoes-enem.md`. A interface consome `src/data/questions.json`, gerado a partir desse Markdown com:

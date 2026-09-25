@@ -8,14 +8,14 @@ export function BrandHeader({ compact = false, onHome }: { compact?: boolean; on
         aria-label="Voltar para a tela inicial"
       >
         <img
-          src="/brand/Logo-Preparadao-Horizontal-03.svg"
+          src={`${import.meta.env.BASE_URL}brand/Logo-Preparadao-Horizontal-03.svg`}
           alt="Preparadão"
           className="brand-header__preparadao"
         />
       </button>
       <span className="brand-header__divider" aria-hidden="true" />
       <img
-        src="/brand/logo-quero-bolsa.svg"
+        src={`${import.meta.env.BASE_URL}brand/logo-quero-bolsa.svg`}
         alt="Quero Bolsa"
         className="brand-header__quero"
       />
