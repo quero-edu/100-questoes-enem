@@ -18,6 +18,16 @@ const objectives = [
   'Ainda estou decidindo',
 ]
 
+const PHONE_ERROR = 'Digite um telefone com DDD válido.'
+
+// A regra do DDD vira validação nativa do input: assim o navegador bloqueia o envio
+// e o evento `submit` (capturado pelo autoTrack do Montilla) só dispara com lead válido.
+function validatePhone(input: HTMLInputElement) {
+  const digits = input.value.replace(/\D/g, '')
+  const invalid = input.value.trim() !== '' && (digits.length < 10 || digits.length > 11)
+  input.setCustomValidity(invalid ? PHONE_ERROR : '')
+}
+
 export function LeadCapture({
   onComplete,
   onBack,
@@ -29,26 +39,14 @@ export function LeadCapture({
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    const form = event.currentTarget
+    const data = new FormData(event.currentTarget)
 
-    if (!form.reportValidity()) return
-
-    const data = new FormData(form)
-    const phone = String(data.get('phone') ?? '').trim()
-    const phoneDigits = phone.replace(/\D/g, '')
-
-    if (phoneDigits.length < 10 || phoneDigits.length > 11) {
-      setPhoneError('Digite um telefone com DDD válido.')
-      return
-    }
-
-    setPhoneError('')
     onComplete({
       name: String(data.get('name') ?? '').trim(),
       age: Number(data.get('age')),
       objective: String(data.get('objective') ?? ''),
       email: String(data.get('email') ?? '').trim().toLowerCase(),
-      phone,
+      phone: String(data.get('phone') ?? '').trim(),
     })
   }
 
@@ -66,7 +64,7 @@ export function LeadCapture({
           </div>
         </section>
 
-        <form className="lead-form" onSubmit={submit} noValidate>
+        <form id="lead-form" className="lead-form" data-montilla-form-type="lead" onSubmit={submit}>
           <div className="lead-form__heading">
             <div>
               <span>Só falta isso para começar</span>
@@ -108,7 +106,13 @@ export function LeadCapture({
               placeholder="(11) 99999-9999"
               aria-describedby={phoneError ? 'phone-error' : undefined}
               aria-invalid={phoneError ? 'true' : undefined}
-              onChange={() => phoneError && setPhoneError('')}
+              onChange={(event) => {
+                validatePhone(event.currentTarget)
+                if (phoneError) setPhoneError('')
+              }}
+              onInvalid={(event) => {
+                if (event.currentTarget.validity.customError) setPhoneError(PHONE_ERROR)
+              }}
               required
             />
             {phoneError && <small id="phone-error" className="lead-form__error" role="alert">{phoneError}</small>}
