@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/__100-questoes-do-enem/:path*", "destination": "/:path*" }
-  ]
-}
