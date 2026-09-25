@@ -19,9 +19,15 @@ O resultado é gerado em `dist/`.
 
 ## Publicação
 
-O app roda no Coolify (projeto **QeevoLandpages**, app `100-questoes-enem`) em `https://100-questoes-enem.quero.app`, a partir do `.infra/Dockerfile`: build do Vite + nginx servindo o `dist/` (`.infra/nginx.conf`). Pushes no `main` fazem o redeploy.
+A URL pública é `querobolsa.com.br/portal/100-questoes-do-enem`, servida pelo worker `querobolsa-portal-test` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o app do Coolify **preservando o path**.
 
-A URL pública é `querobolsa.com.br/100-questoes-do-enem`, servida pelo worker `reverse-proxy` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o app do Coolify. Por isso o bundle usa `base: '/__100-questoes-do-enem/'` (`vite.config.ts`), seguindo a convenção de namespacing de assets daquele repositório, e arquivos de `public/` devem ser referenciados com `import.meta.env.BASE_URL`. O worker tira esse prefixo antes de repassar; o `.infra/nginx.conf` também aceita o prefixo, para o domínio `*.quero.app` funcionar direto.
+O app roda no Coolify (projeto **QeevoLandpages**, app `100-questoes-enem`) em `https://100-questoes-enem.quero.app/portal/100-questoes-do-enem/`, a partir do `.infra/Dockerfile`: build do Vite + nginx (`.infra/nginx.conf.template`). Pushes no `main` fazem o redeploy.
+
+O path vem de uma variável só, `BASE_PATH` no `.infra/Dockerfile` (`/portal/100-questoes-do-enem/`): ela vira o `--base` do `vite build`, o diretório do `dist/` na imagem e os `location` do nginx. Arquivos de `public/` usados no código devem ser referenciados com `import.meta.env.BASE_URL`. Para gerar localmente o mesmo build de produção:
+
+```bash
+npm run build -- --base /portal/100-questoes-do-enem/
+```
 
 ## Conteúdo
 

@@ -1,0 +1,46 @@
+# Template processado no boot pelo entrypoint da imagem nginx (envsubst nos
+# `${...}`) → /etc/nginx/conf.d/default.conf. O `$uri` sobrevive porque o
+# entrypoint só substitui as variáveis presentes no ambiente.
+#
+# ${BASE_PATH} vem do Dockerfile — a MESMA variável do build do Vite e do destino
+# do dist. Barra no início e no fim (ex.: `/portal/100-questoes-do-enem/`).
+server {
+  listen       80;
+  server_name  _;
+  root   /usr/share/nginx/html;
+  index  index.html;
+
+  # Location relativo nos redirects: atrás do proxy, um Location absoluto vazaria
+  # o host interno `100-questoes-enem.quero.app` pra barra de endereço.
+  absolute_redirect off;
+
+  # A raiz não serve o app (o build vive sob ${BASE_PATH}).
+  location = / {
+    return 302 ${BASE_PATH};
+  }
+
+  # Assets com hash no nome: cache longo.
+  location ${BASE_PATH}assets/ {
+    add_header Cache-Control "public, max-age=31536000, immutable";
+    try_files $uri =404;
+  }
+
+  # O mime.types padrão do nginx não mapeia .ttf (sairia application/octet-stream).
+  location ${BASE_PATH}brand/fonts/ {
+    default_type font/ttf;
+  }
+
+  # O app não tem rotas no client: path desconhecido é 404.
+  location ${BASE_PATH} {
+    try_files $uri $uri/ =404;
+  }
+
+  # O index.html nunca é cacheado: ele aponta pro JS/CSS com hash do deploy atual.
+  location = ${BASE_PATH}index.html {
+    add_header Cache-Control "no-cache, no-store, must-revalidate";
+  }
+
+  gzip on;
+  gzip_types text/plain text/css application/javascript application/json image/svg+xml;
+  gzip_min_length 1024;
+}
