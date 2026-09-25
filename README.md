@@ -15,11 +15,13 @@ npm run dev
 npm run build
 ```
 
-O resultado é gerado em `dist/` e pode ser publicado em serviços como Vercel.
+O resultado é gerado em `dist/`.
 
-## Publicação em querobolsa.com.br/100-questoes-do-enem
+## Publicação
 
-A página é servida em `querobolsa.com.br/100-questoes-do-enem` pelo worker `reverse-proxy` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o deploy do Vercel. Por isso o bundle usa `base: '/__100-questoes-do-enem/'` (`vite.config.ts`), seguindo a convenção de namespacing de assets daquele repositório, e arquivos de `public/` devem ser referenciados com `import.meta.env.BASE_URL`. O `vercel.json` reescreve esse prefixo para que o domínio do Vercel continue funcionando direto.
+O app roda no Coolify (projeto **QeevoLandpages**, app `100-questoes-enem`) em `https://100-questoes-enem.quero.app`, a partir do `.infra/Dockerfile`: build do Vite + nginx servindo o `dist/` (`.infra/nginx.conf`). Pushes no `main` fazem o redeploy.
+
+A URL pública é `querobolsa.com.br/100-questoes-do-enem`, servida pelo worker `reverse-proxy` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o app do Coolify. Por isso o bundle usa `base: '/__100-questoes-do-enem/'` (`vite.config.ts`), seguindo a convenção de namespacing de assets daquele repositório, e arquivos de `public/` devem ser referenciados com `import.meta.env.BASE_URL`. O worker tira esse prefixo antes de repassar; o `.infra/nginx.conf` também aceita o prefixo, para o domínio `*.quero.app` funcionar direto.
 
 ## Conteúdo
 
