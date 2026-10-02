@@ -6,6 +6,7 @@ dist/
 !.env.example
 *.local
 *.log
+*.zip
 .vite/
 coverage/
 *.tsbuildinfo

@@ -19,11 +19,16 @@ O resultado é gerado em `dist/`.
 
 ## Publicação
 
-A URL pública é `querobolsa.com.br/portal/100-questoes-do-enem`, servida pelo worker `querobolsa-portal-test` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o app do Coolify **preservando o path**.
+As entradas públicas são:
+
+- `querobolsa.com.br/portal/100-questoes-do-enem`: exibe o formulário antes de liberar as questões;
+- `querobolsa.com.br/portal/100-questoes-do-enem-preparadao`: mantém a mesma página inicial, mas pula o formulário depois do clique em “Começar”.
+
+Elas são servidas pelo worker `querobolsa-portal-test` do repositório `quero-edu/cloudflare-workers`, que faz proxy para o app do Coolify **preservando o path**. O worker precisa encaminhar os dois caminhos para este app.
 
 O app roda no Coolify (projeto **QeevoLandpages**, app `100-questoes-enem`) em `https://100-questoes-enem.quero.app/portal/100-questoes-do-enem/`, a partir do `.infra/Dockerfile`: build do Vite + nginx (`.infra/nginx.conf.template`). Pushes no `main` fazem o redeploy.
 
-O path vem de uma variável só, `BASE_PATH` no `.infra/Dockerfile` (`/portal/100-questoes-do-enem/`): ela vira o `--base` do `vite build`, o diretório do `dist/` na imagem e os `location` do nginx. Arquivos de `public/` usados no código devem ser referenciados com `import.meta.env.BASE_URL`. Para gerar localmente o mesmo build de produção:
+O path canônico vem de `BASE_PATH` no `.infra/Dockerfile` (`/portal/100-questoes-do-enem/`): ele vira o `--base` do `vite build`, o diretório do `dist/` na imagem e os `location` do nginx. `PREPARADAO_PATH` adiciona somente a entrada alternativa, servindo o mesmo `index.html`; os assets continuam no path canônico. Arquivos de `public/` usados no código devem ser referenciados com `import.meta.env.BASE_URL`. Para gerar localmente o mesmo build de produção:
 
 ```bash
 npm run build -- --base /portal/100-questoes-do-enem/
