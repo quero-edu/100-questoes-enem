@@ -4,6 +4,8 @@
 #
 # ${BASE_PATH} vem do Dockerfile — a MESMA variável do build do Vite e do destino
 # do dist. Barra no início e no fim (ex.: `/portal/100-questoes-do-enem/`).
+# ${PREPARADAO_PATH} é uma entrada alternativa que serve o mesmo index sem
+# redirecionar, para que o React consiga identificar a URL e pular o formulário.
 server {
   listen       80;
   server_name  _;
@@ -17,6 +19,18 @@ server {
   # A raiz não serve o app (o build vive sob ${BASE_PATH}).
   location = / {
     return 302 ${BASE_PATH};
+  }
+
+  # Entrada do Preparadão: mantém a URL alternativa no navegador, mas entrega o
+  # mesmo index e os mesmos assets do build canônico em ${BASE_PATH}.
+  location = ${PREPARADAO_PATH} {
+    add_header Cache-Control "no-cache, no-store, must-revalidate";
+    try_files ${BASE_PATH}index.html =404;
+  }
+
+  location = ${PREPARADAO_PATH}/ {
+    add_header Cache-Control "no-cache, no-store, must-revalidate";
+    try_files ${BASE_PATH}index.html =404;
   }
 
   # Assets com hash no nome: cache longo.

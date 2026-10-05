@@ -8,6 +8,7 @@
 # querobolsa.com.br/portal/100-questoes-do-enem/ via worker `querobolsa-portal-test`,
 # que preserva o path.
 ARG BASE_PATH=/portal/100-questoes-do-enem/
+ARG PREPARADAO_PATH=/portal/100-questoes-do-enem-preparadao
 
 # ---- build: compila o app Vite ----
 FROM node:22-alpine AS build
@@ -28,8 +29,10 @@ RUN npm run build -- --base "$BASE_PATH"
 FROM nginx:alpine AS runtime
 
 ARG BASE_PATH
+ARG PREPARADAO_PATH
 # lido pelo envsubst do entrypoint da imagem nginx, que expande o template no boot
 ENV BASE_PATH=$BASE_PATH
+ENV PREPARADAO_PATH=$PREPARADAO_PATH
 
 COPY .infra/nginx.conf.template /etc/nginx/templates/default.conf.template
 

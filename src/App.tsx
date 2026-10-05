@@ -12,6 +12,7 @@ import { LeadCapture, type LeadData } from './components/LeadCapture'
 const questions = rawQuestions as Question[]
 const STORAGE_KEY = 'preparadao-enem-progress-v1'
 const LEAD_STORAGE_KEY = 'preparadao-enem-lead-v2'
+const PREPARADAO_PATH = '/portal/100-questoes-do-enem-preparadao'
 
 type SavedProgress = {
   answers: Record<number, AnswerRecord>
@@ -44,6 +45,12 @@ function hasSavedLead() {
   }
 }
 
+function isPreparadaoEntry() {
+  if (typeof window === 'undefined') return false
+  const pathname = window.location.pathname.replace(/\/+$/, '')
+  return pathname === PREPARADAO_PATH
+}
+
 function App() {
   const [initialProgress] = useState(readProgress)
   const [screen, setScreen] = useState<Screen>('home')
@@ -54,6 +61,7 @@ function App() {
   const [answers, setAnswers] = useState<Record<number, AnswerRecord>>(initialProgress.answers)
   const [leadCaptured, setLeadCaptured] = useState(hasSavedLead)
   const [leadDestination, setLeadDestination] = useState(initialProgress.currentIndex)
+  const [bypassLeadCapture] = useState(isPreparadaoEntry)
   const current = questions[currentIndex]
 
   useEffect(() => {
@@ -100,7 +108,7 @@ function App() {
   }
 
   function requestQuestionAccess(index: number) {
-    if (leadCaptured) {
+    if (leadCaptured || bypassLeadCapture) {
       goToQuestion(index)
       return
     }
