@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import rawQuestions from './data/questions.json'
+import rawAnswerLetterMigration from './data/answer-letter-migration-v2.json'
 import type { AnswerRecord, Question, Screen } from './types'
 import { BrandHeader } from './components/BrandHeader'
 import { Home } from './components/Home'
@@ -10,13 +11,28 @@ import { ReviewMode } from './components/ReviewMode'
 import { LeadCapture, type LeadData } from './components/LeadCapture'
 
 const questions = rawQuestions as Question[]
+const questionsByNumber = new Map(questions.map((question) => [question.number, question]))
+const answerLetterMigration = rawAnswerLetterMigration as Record<string, Record<string, string>>
 const STORAGE_KEY = 'preparadao-enem-progress-v1'
 const LEAD_STORAGE_KEY = 'preparadao-enem-lead-v2'
 const PREPARADAO_PATH = '/portal/100-questoes-do-enem-preparadao'
+const QUESTION_VERSION = 2
 
 type SavedProgress = {
   answers: Record<number, AnswerRecord>
   currentIndex: number
+  questionVersion?: number
+}
+
+function migrateAnswers(answers: Record<number, AnswerRecord>) {
+  return Object.fromEntries(Object.entries(answers).map(([questionNumber, answer]) => {
+    const selected = answerLetterMigration[questionNumber]?.[answer.selected] ?? answer.selected
+    const question = questionsByNumber.get(Number(questionNumber))
+    return [questionNumber, {
+      selected,
+      correct: question ? selected === question.answer : answer.correct,
+    }]
+  })) as Record<number, AnswerRecord>
 }
 
 function readProgress(): SavedProgress {
@@ -27,7 +43,10 @@ function readProgress(): SavedProgress {
     const currentIndex = Number.isInteger(saved.currentIndex) && Number(saved.currentIndex) >= 0 && Number(saved.currentIndex) < questions.length
       ? Number(saved.currentIndex)
       : 0
-    const answers = saved.answers && typeof saved.answers === 'object' ? saved.answers : {}
+    const storedAnswers = saved.answers && typeof saved.answers === 'object' ? saved.answers : {}
+    const answers = Number(saved.questionVersion ?? 1) < QUESTION_VERSION
+      ? migrateAnswers(storedAnswers)
+      : storedAnswers
     return { answers, currentIndex }
   } catch {
     return { answers: {}, currentIndex: 0 }
@@ -89,6 +108,7 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
       version: 1,
+      questionVersion: QUESTION_VERSION,
       answers,
       currentIndex,
       lastQuestion: currentIndex + 1,
